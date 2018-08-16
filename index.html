@@ -3,47 +3,87 @@
 <head>
     <title>Dalton Mooring</title>
     <link rel="stylesheet" type="text/css" href="jquery.fullpage.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"> </script>
     <script src="vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="jquery.fullpage.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
-                sectionsColor: ['cyan', 'gray', '#C0C0C0', '#ADD8E6'],
-            });
+                sectionsColor: ['#b7b7b7','#c1c1c1', '#d6d6d6', '#dddddd','#ededed'],
+                menu: '#menu',
+                recordHistory:false,
+                navigation: true,
+                navigationTooltips: ['home','about','music','science','contact']            });
         });
     </script>
-    <style>
-        .section {
-            text-align:center;
-            font-size: 3em;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/vaakash/socializer/80391a50/css/socializer.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
 </head>
 
 <body>
-    <div id="fullpage">
-        <div class="section">HOME PAGE
-          <svg width="100" height="100">
-            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="blue" />
-          </svg>
 
+  <ul id="menu"> <!--nav bar, highlighted based on active section-->
+    <li data-menuanchor="home" class="active menu-hvr-shrink">
+      <a href="#home">Home</a>
+    </li>
+    <li data-menuanchor="about" class="menu-hvr-shrink">
+      <a href="#about">About</a>
+    </li>
+    <li data-menuanchor="music" class="menu-hvr-shrink">
+      <a href="#music">Music</a>
+    </li>
+    <li data-menuanchor="science" class="menu-hvr-shrink">
+      <a href="#science">Science</a>
+    </li>
+    <li data-menuanchor="contact" class="menu-hvr-shrink">
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+
+    <div id="fullpage" >
+        <div class="section fp-section fp-table active fp-completely" data-anchor="home">
+
+          <br><br>Dalton Mooring<br>
+          <img src="66.PNG" alt="front page image" width="500">
         </div>
 
-
-
-        <div class="section">
-            <div class="slide" data-anchor="slide1">Slide 2.1</div>
-            <div class="slide" data-anchor="slide2">Slide 2.2</div>
-            <div class="slide" data-anchor="slide3">Slide 2.3</div>
-            <div class="slide" data-anchor="slide4">Slide 2.4</div>
-
+        <div class="section fp-section" data-anchor="about">
+          all about <strong>me!</strong><br>
         </div>
-        <div class="section">gachiBASSSSSOOON</div>
-        <div class="section">ContACTS AND INFO MEOW??????</div>
-    </div>
+
+        <div class="section fp-section" data-anchor="music">
+          Music <br>
+        </div>
+
+        <div class="section fp-section" data-anchor="science">
+            <div class="slide" id="ComputerScience">
+              comp sci stuff</div>
+            <div class="slide" id="Physics">
+              physics stuff</div>
+        </div>
+
+        <div class="section fp-section" data-anchor="contact">
+          Contact Me <br><br>
+
+          <div class="socializer a sr-64px sr-circle sr-opacity sr-icon-white sr-pad">
+                <span class="sr-twitter hvr-shrink">
+                    <a href="https://twitter.com/fxlconn" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+                </span>
+                <span class="sr-facebook hvr-shrink">
+                    <a href="https://www.facebook.com/dalton.mooring" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+                </span>
+                <span class="sr-github hvr-shrink">
+                    <a href="https://github.com/daltonmooring" target="_blank" title="Github"><i class="fa fa-github"></i></a>
+                </span>
+                <span class="sr-email hvr-shrink">
+                    <a href="mailto:daltonmooring@gmail.com" target="_self" title="Email"><i class="fa fa-envelope"></i></a>
+                </span>
+        </div>
 </body>
 </html>
-
