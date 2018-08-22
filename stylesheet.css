@@ -175,7 +175,7 @@ p{
   .text {
     font-size: 2vw;
   }
-  .sci-text{
+  .arrow-text{
     padding-left:9%;
     padding-right:9%;
   }
@@ -186,13 +186,12 @@ p{
   .text {
     font-size: 4vw;
   }
-  .sci-text{
-    padding-left:13%;
-    padding-right:13%;
+  .arrow-text{
+    padding-left:18%;
+    padding-right:18%;
   }
 }
 
-.icon{
-  text-align: center;
-  width: 70%;
+.page-header{
+  font-family: 'Montserrat', sans-serif;
 }
