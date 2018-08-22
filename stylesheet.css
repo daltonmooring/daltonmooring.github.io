@@ -143,12 +143,20 @@ p{
 #logo {
     width: 75%;
     opacity: 1;
-    transition: opacity .4s ease-in-out;
-    -moz-transition: opacity .4s ease-in-out;
-    -webkit-transition: opacity .4s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
 }
 #logo:hover {
     opacity: 0;
     width: 75%;
-    transition: all ease .4s;
+    transition: all ease .3s;
+}
+.text{
+  text-align: left;
+  font-size: 30px;
+  font-size: 4vw;
+  padding-left:5%;
+  padding-right:5%;
+
 }
