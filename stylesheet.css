@@ -142,12 +142,13 @@ p{
 
 #logo {
     width: 75%;
+    opacity: 1;
+    transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
 }
 #logo:hover {
-    content: url('logos/logo-white.svg');
+    opacity: 0;
     width: 75%;
-}
-
-#some-space{
-  padding: "1000px";
+    transition: all ease .4s;
 }
