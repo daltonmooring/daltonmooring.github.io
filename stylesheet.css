@@ -4,7 +4,6 @@
   }
 
 body{
- /* font-family: arial,helvetica; */
   font-family: 'Raleway', sans-serif;
   padding-top:80px;
   color: #333;
@@ -28,7 +27,7 @@ p{
 
 #menu li {
   display:inline-block;
-  margin: 10px;
+  margin: 2vw;
   color: #000;
   background:#fff;
   background: rgba(255,255,255, 0.5);
@@ -179,6 +178,11 @@ p{
     padding-left:9%;
     padding-right:9%;
   }
+  .page-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size:4vw;
+  }
+
 }
 
 /* MOBILE */
@@ -190,8 +194,24 @@ p{
     padding-left:18%;
     padding-right:18%;
   }
+  .page-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size:13vw;
+  }
 }
 
-.page-header{
-  font-family: 'Montserrat', sans-serif;
+
+.sr-twitter{
+  padding-right:3.2vw;
+}
+.sr-facebook{
+  padding-right:3.2vw;
+  padding-left:3.2vw;
+}
+.sr-github{
+  padding-right:3.2vw;
+  padding-left:3.2vw;
+}
+.sr-email{
+  padding-left:3.2vw;
 }
