@@ -1,6 +1,6 @@
 .section {
-      text-align:center;
-      font-size: 3em;
+    text-align:center;
+    font-size: 3em;
   }
 
 body{
@@ -168,21 +168,18 @@ p{
   text-align: left;
   padding-left:5%;
   padding-right:5%;
+  color: grey;
 }
 
 @media screen and (min-width: 600px) {
   .text {
     font-size: 2vw;
   }
-  .arrow-text{
-    padding-left:9%;
-    padding-right:9%;
-  }
+
   .page-header{
     font-family: 'Montserrat', sans-serif;
     font-size:4vw;
   }
-
 }
 
 /* MOBILE */
@@ -190,28 +187,15 @@ p{
   .text {
     font-size: 4vw;
   }
-  .arrow-text{
-    padding-left:18%;
-    padding-right:18%;
-  }
+
   .page-header{
     font-family: 'Montserrat', sans-serif;
     font-size:13vw;
   }
 }
 
-
-.sr-twitter{
-  padding-right:3.2vw;
-}
-.sr-facebook{
-  padding-right:3.2vw;
-  padding-left:3.2vw;
-}
-.sr-github{
-  padding-right:3.2vw;
-  padding-left:3.2vw;
-}
-.sr-email{
-  padding-left:3.2vw;
+hr {
+  width: 75%;
+  height: .1vw;
+  background-color:grey;
 }
