@@ -168,13 +168,16 @@ h2{
 
 @media screen and (min-width: 600px) {
   .text {
-    font-size: 2vw;
+    font-size: 1.5vw;
+  }
+  .performances{
+    font-size:1.25vw;
   }
   h1{
-    font-size:4vw;
+    font-size:3vw;
   }
   h2{
-    font-size:4vw;
+    font-size:3vw;
   }
 }
 
@@ -182,6 +185,9 @@ h2{
 @media screen and (max-width: 600px) {
   .text {
     font-size: 4vw;
+  }
+  .performances{
+    font-size:3.5vw;
   }
   h1{
     font-size:11vw;
