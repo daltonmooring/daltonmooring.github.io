@@ -219,3 +219,11 @@ a:visited {
 a:hover {
     color:white;
 }
+/*
+#background_test{
+  background-size: cover;
+  background-attachment: fixed;   COMMENT THIS LINE OUT
+  opacity: 10%;
+  background-image: url("background_test1.PNG");
+}
+*/
