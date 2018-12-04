@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Practice Habits</title>
+
+  <!--libraries and dependencies-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"> </script>
+  <script type="text/javascript" src="lib/chart.bundle.min.js"> </script>
+  <script type="text/javascript" src="lib/color-scheme.js">     </script>
+  <script type="text/javascript" src="lib/jscolor.js">          </script>
+
+  <!--csv file converted to json file using online converter -->
+  <script type="text/javascript" src="data.json">   </script>
+
+  <!-- custom javascript files -->
+  <script type="text/javascript" src="calendar.js"> </script>
+  <script type="text/javascript" src="color.js">    </script>
+  <script type="text/javascript" src="main.js">     </script>
+
+  <!--stylesheets, fonts etc. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+</head>
+
+<body>
+  <div id="TopHalf">
+
+    <a href="./index.html">Home</a>
+    <p>
+    <b>Graphs</b> <!--current page-->
+    <p>
+    <a href="./about.html">About</a>
+
+    <iframe name="frame" style="display:none;"></iframe>
+
+    <form action="about:blank" method="post" target="frame">
+      <input name="color1" class="jscolor" id="color2" value="666666">
+      <input name="color2" class="jscolor" id="color1" value="e5e5e5">
+      <input type="submit" value="Refresh Graphs" onclick="redraw_charts()">
+    </form>
+
+
+    <div id="bar-chart">
+      <canvas id="bar-graph" width="800" height="450"></canvas>
+    </div>
+
+  </div>
+
+  <div id="BottomHalf">
+    <div id="doughnut-graph">
+      <canvas id="doughnut-chart" width="800" height="450"></canvas>
+    </div>
+  </div>
+
+  <script>
+    //create first bar graph and doughnut graphs
+    var grad_start       = $("#color1").val();
+    var grad_end         = $("#color2").val();
+    var chart_data       = load_data();
+    var bar_chart_data   = make_bar_data(chart_data);
+    var bar_graph_labels = make_data_labels(chart_data);
+    var colors           = generateColor(grad_start,grad_end,chart_data.length);
+    var title            = chart_data.print_bar_title();
+    var bar_ctx          = document.getElementById("bar-graph").getContext('2d');
+    var bar_config       = {
+        type: 'bar',
+        data:{
+          labels: bar_graph_labels,
+          datasets:[{
+            data:bar_chart_data,
+            backgroundColor: colors
+          }]
+        },
+        options: {
+          legend:{
+            display:false,
+          },
+          responsive: true,
+          maintainAspectRatio: false,
+          title:{
+            display: true,
+            text:title,
+            fontColor:"black"
+          }
+        }
+      }
+
+    var pie_chart_data  = pie_chart_data_of(chart_data);
+    var doughnut_colors = generateColor(grad_start,grad_end,pie_chart_data.length);
+    var doughnut_ctx    = document.getElementById("doughnut-chart").getContext('2d');
+    var doughnut_config = {
+        type: 'doughnut',
+        data: {
+          labels: practice_types,
+          datasets: [
+            {
+              backgroundColor: doughnut_colors,
+              data: pie_chart_data
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false
+        }
+    }
+    //create
+    var my_doughnut = new Chart(doughnut_ctx, doughnut_config);
+    var my_bar      = new Chart(bar_ctx, bar_config);
+
+    //staring the background color of the page
+    var scheme          = new ColorScheme;
+    var rgb_start_array = [grad_start.substring(0,2),grad_start.substring(2,4),grad_start.substring(4,6)];
+    var start_hex       = convertToHex(rgb_start_array)
+    scheme.from_hex(start_hex).scheme('analogic').variation('light');
+    var top_colors      = scheme.colors();
+    document.getElementById("TopHalf").style.backgroundColor = "#"+top_colors[6];
+
+    var rgb_end_array = [grad_end.substring(0,2),grad_end.substring(2,4),grad_end.substring(4,6)];
+    var end_hex       = convertToHex(rgb_end_array)
+    scheme.from_hex(end_hex).scheme('analogic').variation('light');
+    var bottom_colors = scheme.colors();
+    document.getElementById("BottomHalf").style.backgroundColor =  "#"+bottom_colors[6];
+
+    function redraw_charts(){
+      my_bar.destroy();
+      my_doughnut.destroy();
+      var updated_grad_start = $("#color1").val();
+      var updated_grad_end   = $("#color2").val();
+      var bar_chart_data     = make_bar_data(chart_data);
+      var bar_graph_labels   = make_data_labels(chart_data);
+      var bar_colors         = generateColor(updated_grad_start,updated_grad_end,chart_data.length);
+      var title              = chart_data.print_bar_title();
+      var bar_ctx            = document.getElementById("bar-graph").getContext('2d');
+      var bar_config = {
+          type: 'bar',
+          data:{
+            labels: bar_graph_labels,
+            datasets:[{
+              data:bar_chart_data,
+              backgroundColor: bar_colors
+            }]
+          },
+          options: {
+            legend:{
+              display:false,
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+            title:{
+              display: true,
+              text:title,
+              fontColor:"black"
+            }
+          }
+        }
+
+      var pie_chart_data  = pie_chart_data_of(chart_data);
+      var doughnut_colors = generateColor(updated_grad_start,updated_grad_end,pie_chart_data.length);
+      var doughnut_ctx    = document.getElementById("doughnut-chart").getContext('2d');
+      var doughnut_config = {
+          type: 'doughnut',
+          data: {
+            labels: practice_types,
+            datasets: [
+              {
+                backgroundColor: doughnut_colors,
+                data: pie_chart_data
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false
+          }
+      }
+      //create the new graphs
+      my_bar      = new Chart(bar_ctx, bar_config);
+      my_doughnut = new Chart(doughnut_ctx, doughnut_config);
+
+      //update the background color of the page
+      var scheme    = new ColorScheme;
+      var rgb_array = [updated_grad_start.substring(0,2),updated_grad_start.substring(2,4),updated_grad_start.substring(4,6)];
+      var new_hex   = convertToHex(rgb_array)
+      scheme.from_hex(new_hex).scheme('analogic').variation('light');
+      var colors    = scheme.colors();
+      document.getElementById("TopHalf").style.backgroundColor = "#"+colors[6];
+
+      var rgb_array2 = [updated_grad_end.substring(0,2),updated_grad_end.substring(2,4),updated_grad_end.substring(4,6)];
+      var new_hex2   = convertToHex(rgb_array2)
+      scheme.from_hex(new_hex2).scheme('analogic').variation('light');
+      var colors2    = scheme.colors();
+      document.getElementById("BottomHalf").style.backgroundColor =  "#"+colors2[6];
+    }
+
+  </script>
+
+
+
+
+</body>
+
+</html>

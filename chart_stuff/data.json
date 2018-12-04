@@ -1,0 +1,679 @@
+/* data converted from csv to json using https://www.csvjson.com/csv2json */
+
+var data =[
+  {
+    "day": 6,
+    "month": "sept",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 10,
+    "month": "sept",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 11,
+    "month": "sept",
+    "year": 2018,
+    "begin": "15:30",
+    "end": "16:30",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 12,
+    "month": "sept",
+    "year": 2018,
+    "begin": "12:00",
+    "end": "13:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 13,
+    "month": "sept",
+    "year": 2018,
+    "begin": "12:00",
+    "end": "13:00",
+    "type": "sectional",
+    "concert type": "NA"
+  },
+  {
+    "day": 13,
+    "month": "sept",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 14,
+    "month": "sept",
+    "year": 2018,
+    "begin": "16:00",
+    "end": "17:30",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 15,
+    "month": "sept",
+    "year": 2018,
+    "begin": "14:00",
+    "end": "17:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 17,
+    "month": "sept",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "sept",
+    "year": 2018,
+    "begin": "13:30",
+    "end": "15:20",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "sept",
+    "year": 2018,
+    "begin": "13:15",
+    "end": "14:15",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 20,
+    "month": "sept",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 21,
+    "month": "sept",
+    "year": 2018,
+    "begin": "16:00",
+    "end": "17:50",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 24,
+    "month": "sept",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 25,
+    "month": "sept",
+    "year": 2018,
+    "begin": "13:30",
+    "end": "15:20",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 27,
+    "month": "sept",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "sept",
+    "year": 2018,
+    "begin": "13:00",
+    "end": "14:00",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "sept",
+    "year": 2018,
+    "begin": "16:00",
+    "end": "18:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 29,
+    "month": "sept",
+    "year": 2018,
+    "begin": "16:00",
+    "end": "19:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 30,
+    "month": "sept",
+    "year": 2018,
+    "begin": "15:00",
+    "end": "17:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "oct",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "oct",
+    "year": 2018,
+    "begin": "10:00",
+    "end": "12:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "oct",
+    "year": 2018,
+    "begin": "13:30",
+    "end": "15:30",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 3,
+    "month": "oct",
+    "year": 2018,
+    "begin": "18:20",
+    "end": "19:20",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "oct",
+    "year": 2018,
+    "begin": "11:30",
+    "end": "14:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "oct",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "oct",
+    "year": 2018,
+    "begin": "19:45",
+    "end": "20:45",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "oct",
+    "year": 2018,
+    "begin": "13:00",
+    "end": "14:00",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "oct",
+    "year": 2018,
+    "begin": "19:30",
+    "end": "21:00",
+    "type": "concert",
+    "concert type": "orchestra"
+  },
+  {
+    "day": 10,
+    "month": "oct",
+    "year": 2018,
+    "begin": "11:30",
+    "end": "14:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 11,
+    "month": "oct",
+    "year": 2018,
+    "begin": "14:00",
+    "end": "16:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 11,
+    "month": "oct",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 12,
+    "month": "oct",
+    "year": 2018,
+    "begin": "13:00",
+    "end": "14:00",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 15,
+    "month": "oct",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "oct",
+    "year": 2018,
+    "begin": "11:30",
+    "end": "12:30",
+    "type": "sectional",
+    "concert type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "oct",
+    "year": 2018,
+    "begin": "16:00",
+    "end": "18:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 17,
+    "month": "oct",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "oct",
+    "year": 2018,
+    "begin": "19:30",
+    "end": "21:00",
+    "type": "concert",
+    "concert type": "wind ensemble"
+  },
+  {
+    "day": 29,
+    "month": "oct",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 31,
+    "month": "oct",
+    "year": 2018,
+    "begin": "16:00",
+    "end": "17:30",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "nov",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "nov",
+    "year": 2018,
+    "begin": "11:45",
+    "end": "12:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "nov",
+    "year": 2018,
+    "begin": "13:00",
+    "end": "14:00",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "nov",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 6,
+    "month": "nov",
+    "year": 2018,
+    "begin": "17:20",
+    "end": "20:20",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "nov",
+    "year": 2018,
+    "begin": "16:30",
+    "end": "18:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "nov",
+    "year": 2018,
+    "begin": "16:30",
+    "end": "17:30",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "nov",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 9,
+    "month": "nov",
+    "year": 2018,
+    "begin": "15:00",
+    "end": "15:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 9,
+    "month": "nov",
+    "year": 2018,
+    "begin": "16:00",
+    "end": "18:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 10,
+    "month": "nov",
+    "year": 2018,
+    "begin": "20:00",
+    "end": "23:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 12,
+    "month": "nov",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 13,
+    "month": "nov",
+    "year": 2018,
+    "begin": "18:30",
+    "end": "20:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 14,
+    "month": "nov",
+    "year": 2018,
+    "begin": "16:45",
+    "end": "18:30",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 15,
+    "month": "nov",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "nov",
+    "year": 2018,
+    "begin": "14:00",
+    "end": "13:00",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "nov",
+    "year": 2018,
+    "begin": "16:00",
+    "end": "18:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "nov",
+    "year": 2018,
+    "begin": "19:00",
+    "end": "21:30",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 17,
+    "month": "nov",
+    "year": 2018,
+    "begin": "10:20",
+    "end": "12:50",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "nov",
+    "year": 2018,
+    "begin": "13:30",
+    "end": "15:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "nov",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 20,
+    "month": "nov",
+    "year": 2018,
+    "begin": "13:30",
+    "end": "15:30",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 20,
+    "month": "nov",
+    "year": 2018,
+    "begin": "19:00",
+    "end": "21:30",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 21,
+    "month": "nov",
+    "year": 2018,
+    "begin": "19:00",
+    "end": "22:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 22,
+    "month": "nov",
+    "year": 2018,
+    "begin": "19:00",
+    "end": "22:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 23,
+    "month": "nov",
+    "year": 2018,
+    "begin": "16:00",
+    "end": "16:20",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 23,
+    "month": "nov",
+    "year": 2018,
+    "begin": "19:00",
+    "end": "20:00",
+    "type": "concert",
+    "concert type": "orchestra"
+  },
+  {
+    "day": 26,
+    "month": "nov",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 26,
+    "month": "nov",
+    "year": 2018,
+    "begin": "19:30",
+    "end": "20:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 27,
+    "month": "nov",
+    "year": 2018,
+    "begin": "12:00",
+    "end": "12:30",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 27,
+    "month": "nov",
+    "year": 2018,
+    "begin": "13:00",
+    "end": "15:00",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "nov",
+    "year": 2018,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 29,
+    "month": "nov",
+    "year": 2018,
+    "begin": "19:30",
+    "end": "21:30",
+    "type": "concert",
+    "concert type": "wind ensemble"
+  },
+  {
+    "day": 1,
+    "month": "dec",
+    "year": 2018,
+    "begin": "20:10",
+    "end": "22:30",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "dec",
+    "year": 2018,
+    "begin": "19:10",
+    "end": "20:20",
+    "type": "solo",
+    "concert type": "NA"
+  }
+]
