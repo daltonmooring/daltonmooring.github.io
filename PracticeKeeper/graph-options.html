@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PracticeKeeper Graph Option</title>
+
+  <script type="text/javascript" src="color.js">    </script>
+  <script type="text/javascript" src="lib/color-scheme.js">     </script>
+  <script type="text/javascript" src="lib/jscolor.js">          </script>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap 4 requires Popper.js -->
+  <script src="https://unpkg.com/popper.js@1.14.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+
+  <!-- Loading Flat UI -->
+  <link href="flat-ui/css/flat-ui.css" rel="stylesheet">
+  <script src="flat-ui/scripts/flat-ui.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="fontello/css/fontello.css" /> <!--for icon-chart-bar and icon-chart-pie-alt-->
+  <link rel="stylesheet" type="text/css" href="graph-options.css" />
+
+
+</head>
+
+<body>
+  <body onload="default_gradient()">
+
+    <h1>Graph Options</h1>
+    <span style="font-size:50px;color:#ECF0F1"><i class="icon-chart-bar"></i></span>
+    <span style="font-size:50px;color:#ECF0F1"><i class="icon-chart-pie-alt"></i></span>
+
+    <div class="col">
+      <h4>Data To Graph</h4>
+      <form role="form">
+        <div class="form-group">
+          <label class="checkbox" for="checkbox1">
+            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox1" required>
+            Individual Practice
+          </label>
+          <label class="checkbox" for="checkbox2">
+            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox2" required>
+            Wind Ensemble Rehearsals
+          </label>
+          <label class="checkbox" for="checkbox3">
+            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox3" required>
+            Orchestra Rehearsals
+          </label>
+          <label class="checkbox" for="checkbox4">
+            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox4" required>
+            Private Lessons
+          </label>
+          <label class="checkbox" for="checkbox5">
+            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox5" required>
+            Concerts
+          </label>
+          <label class="checkbox" for="checkbox6">
+            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox6" required>
+            Sectionals
+          </label>
+          <label class="checkbox toggle-all" for="select_all">
+            <input type="checkbox" data-toggle="checkbox" value="" id="select_all">
+            All
+          </label>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      Sample Gradient Colors
+      <iframe name="frame" style="display:none;"></iframe>
+      <form action="about:blank" method="post" target="frame">
+        <div class="col-lg-2">
+          <div class="form-group">
+            <input type="text" class="form-control jscolor" id="color1" value="FF934B">
+            <input type="text" class="form-control jscolor" id="color2" value="FF5BDB">
+              <button type="submit" class="btn btn-primary btn-lg"  value="Display Gradient" onclick="display_grad()">
+                  Display Graient
+              </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+    Gradient Sample:
+    <div class="wrapper">
+      <div class="rectangle" id="rectangle1"></div>
+      <div class="rectangle" id="rectangle2"></div>
+      <div class="rectangle" id="rectangle3"></div>
+      <div class="rectangle" id="rectangle4"></div>
+      <div class="rectangle" id="rectangle5"></div>
+      <div class="rectangle" id="rectangle6"></div>
+      <div class="rectangle" id="rectangle7"></div>
+      <div class="rectangle" id="rectangle8"></div>
+      <div class="rectangle" id="rectangle9"></div>
+    </div>
+
+
+    <script>
+      function default_gradient(){
+        var color1 = $("#color1").val();
+        var color2 = $("#color2").val();
+        var color_array=generateColor(color2,color1,8);
+        document.getElementById("rectangle1").style.backgroundColor = color_array[0];
+        document.getElementById("rectangle2").style.backgroundColor = color_array[1];
+        document.getElementById("rectangle3").style.backgroundColor = color_array[2];
+        document.getElementById("rectangle4").style.backgroundColor = color_array[3];
+        document.getElementById("rectangle5").style.backgroundColor = color_array[4];
+        document.getElementById("rectangle6").style.backgroundColor = color_array[5];
+        document.getElementById("rectangle7").style.backgroundColor = color_array[6];
+        document.getElementById("rectangle8").style.backgroundColor = color_array[7];
+        document.getElementById("rectangle9").style.backgroundColor = color_array[8];
+      }
+    </script>
+
+
+    <script>
+      function display_grad(){
+        var color1 = $("#color1").val();
+        var color2 = $("#color2").val();
+        var color_array=generateColor(color2,color1,8);
+        document.getElementById("rectangle1").style.backgroundColor = color_array[0];
+        document.getElementById("rectangle2").style.backgroundColor = color_array[1];
+        document.getElementById("rectangle3").style.backgroundColor = color_array[2];
+        document.getElementById("rectangle4").style.backgroundColor = color_array[3];
+        document.getElementById("rectangle5").style.backgroundColor = color_array[4];
+        document.getElementById("rectangle6").style.backgroundColor = color_array[5];
+        document.getElementById("rectangle7").style.backgroundColor = color_array[6];
+        document.getElementById("rectangle8").style.backgroundColor = color_array[7];
+        document.getElementById("rectangle9").style.backgroundColor = color_array[8];
+  }
+
+    </script>
+
+
+
+
+    <button type="button" class="btn btn-primary btn-hg" id="goButton">
+        Go
+    </button>
+
+  <script type="text/javascript">
+      document.getElementById("goButton").onclick = function () {
+          location.href = "./chart.html";
+      };
+  </script>
+
+  <script>
+    $("#select_all").click(function () {
+        $('input:checkbox').not(this).prop('checked', this.checked);
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+        $(':checkbox').radiocheck();
+    });
+</script>
+
+</body>
+
+</html>

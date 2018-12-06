@@ -1,0 +1,29 @@
+body{
+  background-color: #2980B9;
+}
+
+
+h1{
+color: #ECF0F1;
+}
+.checkbox{
+  color: #ECF0F1;
+
+}
+.form-control{
+  height:15px;
+}
+.btn{
+  font-size:15px;
+}
+.rectangle{
+  width:20px;
+  height:10px;
+  display:inline-block;
+  margin: 0;
+  float:left;
+}
+
+/* .wrapper{
+  display:inline-block;
+} */

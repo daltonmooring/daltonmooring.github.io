@@ -7,14 +7,12 @@
   justify-content: center;
   display: flex;
 }
-
 body{
   background-color: #2ecc71;
 }
 .btn{
   font-size: 3vh;
 }
-
 .spacer{
   height:15vh;
 }
