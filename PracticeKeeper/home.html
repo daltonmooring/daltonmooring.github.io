@@ -2,31 +2,40 @@
 <html>
 
 <head>
-  <title> Practice Habits</title>
+  <title>PracticeKeeper</title>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
   <!-- Bootstrap 4 requires Popper.js -->
   <script src="https://unpkg.com/popper.js@1.14.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-  <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
 
   <!-- Loading Flat UI -->
   <link href="flat-ui/css/flat-ui.css" rel="stylesheet">
   <script src="flat-ui/scripts/flat-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="home-stylesheet.css" />
 
 </head>
 
 <body>
-  <h1>Practice<br>
-  <h1>Keeper</h1>
+  <div class="spacer"></div>
+  <div id="wrapper">
+      <h1 id="page-title"> Practice<br>Keeper</h1>
+  </div>
+  <div class="spacer2"></div>
 
+  <div id="wrapper">
+    <button type="button" class="btn btn-primary btn-hg" id="goButton">
+        Go
+    </button>
+  </div>
 
-  <b> Home</b> <!--current page-->
-  <p>
-  <a href="./chart.html"> Graphs</a>
-  <p>
-  <a href="./about.html">About</a>
+<script type="text/javascript">
+    document.getElementById("goButton").onclick = function () {
+        location.href = "./chart.html";
+    };
+</script>
+
 
 </body>
 

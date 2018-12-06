@@ -1,4 +1,26 @@
-h1 {
-    font-family: 'Palanquin', sans-serif;
-    font-size: 48px;
+#page-title {
+    font-size: 20vh;
+    text-align: center;
+}
+#wrapper{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+body{
+  background-color: #2ecc71;
+}
+.btn{
+  font-size: 3vh;
+}
+
+.spacer{
+  height:15vh;
+}
+.spacer2{
+  height:4vh;
+}
+a{
+  color:white;
 }
