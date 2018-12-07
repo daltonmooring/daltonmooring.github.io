@@ -147,8 +147,17 @@ class calendar{
     text+=this.lastDay.short_print_w_year();
     return text;
   }
-
+  maxTimeInDay(){
+    var max = 0;
+    for(var i=0;i<this.day_array.length;i++){
+      if (this.day_array[i].total_practice_time_min>max){
+        max = this.day_array[i].total_practice_time_min;
+      }
+    }
+    return max;
+  }
 }
+
 class day_class{
   constructor(day, sessions){ // should take in new date object of midnight of the day and array of practice session
     this.currentDay = day;
