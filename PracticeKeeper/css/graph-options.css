@@ -1,20 +1,31 @@
 body{
-  background-color: #2980B9;
+  background-color: #2B2B2B;
 }
-
 
 h1{
-color: #ECF0F1;
+color: #C4C4C4;
 }
-.checkbox{
-  color: #ECF0F1;
+h3{
+  font-size: 18px;
+color: #C4C4C4;
+}
+h4{
+color: #C4C4C4;
+}
+p{
+color: #C4C4C4;
+}
 
+.checkbox{
+  color: #C4C4C4;
 }
 .form-control{
   height:15px;
 }
 .btn{
   font-size:15px;
+  background-color: #E5E5E5;
+  color:#2B2B2B;
 }
 .rectangle{
   width:20px;

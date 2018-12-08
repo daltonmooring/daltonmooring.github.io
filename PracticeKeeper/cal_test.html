@@ -4,11 +4,7 @@
 <head>
   <title>cal test</title>
 
-  <!--Libraries-->
-  <script src="lib/color-scheme.js">     </script>
-  <script src="lib/jscolor.js">          </script>
-  <script src="lib/year-cal/js/bootstrap-year-calendar.js"> </script>
-  <link rel="stylesheet" type="text/css" href="lib/year-cal/css/bootstrap-year-calendar.css" />
+
 
 
   <!--csv file converted to json file using online converter -->
@@ -22,6 +18,12 @@
   <!--Flat UI -->
   <link href="lib/flat-ui/css/flat-ui.min.css" rel="stylesheet">
   <script src="lib/flat-ui/scripts/flat-ui.min.js"></script>
+
+  <!--Libraries-->
+  <script src="lib/color-scheme.js">     </script>
+  <script src="lib/jscolor.js">          </script>
+  <script src="lib/year-cal/js/bootstrap-year-calendar.js"> </script>
+  <link rel="stylesheet" type="text/css" href="lib/year-cal/css/bootstrap-year-calendar.css" />
 
   <!-- Custom js and css files -->
   <script src="js/calendar.js"> </script>
@@ -73,7 +75,9 @@ function refresh_cal(){
   $('#calendar').calendar({
     minDate: new Date(myStartDate),
     maxDate: new Date(myEndDate),
+
     customDayRenderer: function(element, date) {
+      console.log(cond_array);
       for(var i=0;i<cond_array.length;i++){
           if(date.getTime()==cond_array[i]){
             $(element).css('background-color', heat_mapped_color_array[i]);
@@ -96,7 +100,6 @@ function refresh_cal(){
   var color = $("#color").val();
 
   var colors = generateColor(color,"FFFFFF",max_per_day); //for fade from nothing make second argument white (FFFFFF)
-
 
 
   var myStartYear =    my_cal.day_array[0].currentDay.getFullYear();
