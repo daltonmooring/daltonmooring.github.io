@@ -4,38 +4,30 @@
 <head>
   <title>cal test</title>
 
-  <script type="text/javascript" src="color.js">    </script>
-  <script type="text/javascript" src="lib/color-scheme.js">     </script>
-  <script type="text/javascript" src="lib/jscolor.js">          </script>
+  <!--Libraries-->
+  <script src="lib/color-scheme.js">     </script>
+  <script src="lib/jscolor.js">          </script>
+  <script src="lib/year-cal/js/bootstrap-year-calendar.js"> </script>
+  <link rel="stylesheet" type="text/css" href="lib/year-cal/css/bootstrap-year-calendar.css" />
 
-  <!-- custom javascript files -->
-  <script type="text/javascript" src="calendar.js"> </script>
-  <script type="text/javascript" src="color.js">    </script>
-  <script type="text/javascript" src="main.js">     </script>
 
   <!--csv file converted to json file using online converter -->
-  <script type="text/javascript" src="data.json">   </script>
+  <script type="text/javascript" src="js/data.json">   </script>
 
-
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- Dependencies For Flat UI -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-  <!-- Bootstrap 4 requires Popper.js -->
   <script src="https://unpkg.com/popper.js@1.14.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+  <link href="lib/flat-ui/css/vendor/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Boostrap 4 -->
-  <link href="flat-ui/css/vendor/bootstrap.min.css" rel="stylesheet">
+  <!--Flat UI -->
+  <link href="lib/flat-ui/css/flat-ui.min.css" rel="stylesheet">
+  <script src="lib/flat-ui/scripts/flat-ui.min.js"></script>
 
-  <!-- Loading Flat UI -->
-  <link href="flat-ui/css/flat-ui.css" rel="stylesheet">
-  <script src="flat-ui/scripts/flat-ui.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="cal_test.css" />
-
-  <link rel="stylesheet" type="text/css" href="year-cal/css/bootstrap-year-calendar.css" />
-  <script type="text/javascript" src="year-cal/js/bootstrap-year-calendar.js"> </script>
-  <link rel="stylesheet" type="text/css" href="cal_test.css" />
+  <!-- Custom js and css files -->
+  <script src="js/calendar.js"> </script>
+  <script src="js/color.js">    </script>
+  <script src="js/main.js">     </script>
+  <link rel="stylesheet" type="text/css" href="css/cal_test.css" />
 
 
 </head>
@@ -57,8 +49,6 @@
   <div class ="my-div">
     <div class="calendar" id="calendar"></div>
   </div>
-
-    <div class="wrapper"></div>
 
 <script>
 function refresh_cal(){
@@ -103,22 +93,11 @@ function refresh_cal(){
 <script>
   var my_cal = load_data();
   var max_per_day = my_cal.maxTimeInDay()+1;
-  // console.log(max_per_day);
-  var colors = generateColor("96F2FF","FFFFFF",max_per_day); //for fade from nothing make second argument white (FFFFFF)
-  // console.log(colors);
+  var color = $("#color").val();
 
-  for(var i=0;i<my_cal.day_array.length;i++){
-    var current_day_mins = my_cal.day_array[i].total_practice_time_min;
-    // console.log("color for");
-    // console.log(my_cal.day_array[i].short_print());
-    // console.log("is");
-    // console.log(colors[current_day_mins]);
-  }
-  for (var i = 0; i < 88; i++) { //testing the gradient
-		// $('.wrapper').append('<div id="rect' + i + '" class="rectangle"><br> </div>');
-    // var current_day_mins = my_cal.day_array[i].total_practice_time_min;
-    // document.getElementById("rect"+i).style.backgroundColor = colors[current_day_mins];
-	}
+  var colors = generateColor(color,"FFFFFF",max_per_day); //for fade from nothing make second argument white (FFFFFF)
+
+
 
   var myStartYear =    my_cal.day_array[0].currentDay.getFullYear();
   var myStartMonth = my_cal.day_array[0].currentDay.getMonth();

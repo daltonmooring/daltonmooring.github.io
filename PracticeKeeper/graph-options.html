@@ -4,25 +4,23 @@
 <head>
   <title>PracticeKeeper Graph Option</title>
 
-  <script type="text/javascript" src="color.js">    </script>
-  <script type="text/javascript" src="lib/color-scheme.js">     </script>
-  <script type="text/javascript" src="lib/jscolor.js">          </script>
+  <!--Libraries-->
+  <script src="lib/color-scheme.js"> </script>
+  <script src="lib/jscolor.js">      </script>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- Dependencies For Flat UI -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-  <!-- Bootstrap 4 requires Popper.js -->
   <script src="https://unpkg.com/popper.js@1.14.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+  <link href="lib/flat-ui/css/vendor/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Boostrap 4 -->
-  <link href="flat-ui/css/vendor/bootstrap.min.css" rel="stylesheet">
+  <!--Flat UI -->
+  <link href="lib/flat-ui/css/flat-ui.css" rel="stylesheet">
+  <script src="lib/flat-ui/scripts/flat-ui.js"></script>
 
-  <!-- Loading Flat UI -->
-  <link href="flat-ui/css/flat-ui.css" rel="stylesheet">
-  <script src="flat-ui/scripts/flat-ui.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="fontello/css/fontello.css" /> <!--for icon-chart-bar and icon-chart-pie-alt-->
-  <link rel="stylesheet" type="text/css" href="graph-options.css" />
+  <!-- Custom js,css and font files -->
+  <script src="js/color.js">            </script>
+  <link rel="stylesheet" type="text/css" href="css/fontello/css/fontello.css" /> <!--for icons-->
+  <link rel="stylesheet" type="text/css" href="css/graph-options.css" />
 
 
 </head>
@@ -33,6 +31,9 @@
     <h1>Graph Options</h1>
     <span style="font-size:50px;color:#ECF0F1"><i class="icon-chart-bar"></i></span>
     <span style="font-size:50px;color:#ECF0F1"><i class="icon-chart-pie-alt"></i></span>
+    <span style="font-size:50px;color:#ECF0F1"><i class="icon-wrench"></i></span>
+    <span style="font-size:50px;color:#ECF0F1"><i class="icon-calendar"></i></span>
+
 
     <div class="col">
       <h4>Data To Graph</h4>
