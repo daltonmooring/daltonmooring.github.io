@@ -19,26 +19,27 @@
 </head>
 
 <body>
-  <div class="spacer"></div>
 
-  <div id="wrapper">
-      <h1 id="page-title"> Practice<br>Keeper</h1>
-  </div>
+    <div id="page-title">
+      <h1>Practice<br>Keeper</h1>
+      <button type="button" class="btn btn-primary btn-hg" id="goButton">
+          Go
+      </button>
+    </div>
 
-  <div class="spacer2"></div>
+    <div id="footer">
+      <p>
+        A Project by Dalton Mooring. Visit site
+        <a href="https://daltonmooring.github.io" title="Dalton's Website" target="_blank">here</a>.
+      </p>
+    </div>
 
-  <div id="wrapper">
-    <button type="button" class="btn btn-primary btn-hg" id="goButton">
-        Go
-    </button>
-  </div>
+</body>
 
 <script type="text/javascript">
     document.getElementById("goButton").onclick = function () {
         location.href = "./graph-options.html";
     };
 </script>
-
-</body>
 
 </html>
