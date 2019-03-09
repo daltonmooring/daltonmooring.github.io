@@ -1,6 +1,7 @@
 /* data converted from csv to json using https://www.csvjson.com/csv2json */
 
-var data =[
+var data =
+[
   {
     "day": 6,
     "month": "sept",
@@ -675,5 +676,1022 @@ var data =[
     "end": "20:20",
     "type": "solo",
     "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "dec",
+    "year": 2018,
+    "begin": "13:00",
+    "end": "14:00",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "dec",
+    "year": 2018,
+    "begin": "17:00",
+    "end": "18:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 6,
+    "month": "dec",
+    "year": 2018,
+    "begin": "18:50",
+    "end": "19:05",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 6,
+    "month": "dec",
+    "year": 2018,
+    "begin": "20:10",
+    "end": "22:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "dec",
+    "year": 2018,
+    "begin": "19:20",
+    "end": "22:20",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 11,
+    "month": "dec",
+    "year": 2018,
+    "begin": "13:00",
+    "end": "14:00",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 12,
+    "month": "dec",
+    "year": 2018,
+    "begin": "18:00",
+    "end": "20:20",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 14,
+    "month": "dec",
+    "year": 2018,
+    "begin": "18:00",
+    "end": "19:30",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "dec",
+    "year": 2018,
+    "begin": "19:00",
+    "end": "20:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 21,
+    "month": "dec",
+    "year": 2018,
+    "begin": "14:20",
+    "end": "15:10",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 25,
+    "month": "dec",
+    "year": 2018,
+    "begin": "14:00",
+    "end": "15:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 6,
+    "month": "jan",
+    "year": 2019,
+    "begin": "18:15",
+    "end": "19:30",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "jan",
+    "year": 2019,
+    "begin": "14:45",
+    "end": "15:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "jan",
+    "year": 2019,
+    "begin": "11:15",
+    "end": "11:50",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "jan",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "13:00",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "jan",
+    "year": 2019,
+    "begin": "13:30",
+    "end": "15:30",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 9,
+    "month": "jan",
+    "year": 2019,
+    "begin": "16:15",
+    "end": "18:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 10,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind",
+    "concert type": "NA"
+  },
+  {
+    "day": 11,
+    "month": "jan",
+    "year": 2019,
+    "begin": "14:40",
+    "end": "15:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 11,
+    "month": "jan",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "18:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 12,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:50",
+    "end": "18:50",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 13,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:50",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 14,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 15,
+    "month": "jan",
+    "year": 2019,
+    "begin": "11:00",
+    "end": "11:20",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 15,
+    "month": "jan",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "13:00",
+    "type": "chamber",
+    "concert type": "NA"
+  },
+  {
+    "day": 15,
+    "month": "jan",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "13:50",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 17,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 17,
+    "month": "jan",
+    "year": 2019,
+    "begin": "20:00",
+    "end": "20:40",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "jan",
+    "year": 2019,
+    "begin": "13:20",
+    "end": "14:10",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "jan",
+    "year": 2019,
+    "begin": "23:15",
+    "end": "23:55",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "jan",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "16:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 20,
+    "month": "jan",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "16:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 21,
+    "month": "jan",
+    "year": 2019,
+    "begin": "14:20",
+    "end": "15:00",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 21,
+    "month": "jan",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "22:00",
+    "type": "concert",
+    "concert type": "orchestra"
+  },
+  {
+    "day": 22,
+    "month": "jan",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "13:00",
+    "type": "chamber",
+    "concert type": "NA"
+  },
+  {
+    "day": 22,
+    "month": "jan",
+    "year": 2019,
+    "begin": "14:00",
+    "end": "15:10",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 22,
+    "month": "jan",
+    "year": 2019,
+    "begin": "20:10",
+    "end": "21:10",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 24,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 26,
+    "month": "jan",
+    "year": 2019,
+    "begin": "22:20",
+    "end": "23:40",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 29,
+    "month": "jan",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "13:00",
+    "type": "chamber",
+    "concert type": "NA"
+  },
+  {
+    "day": 29,
+    "month": "jan",
+    "year": 2019,
+    "begin": "13:05",
+    "end": "14:15",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 30,
+    "month": "jan",
+    "year": 2019,
+    "begin": "18:00",
+    "end": "19:10",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 31,
+    "month": "jan",
+    "year": 2019,
+    "begin": "11:40",
+    "end": "14:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 31,
+    "month": "jan",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "16:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 31,
+    "month": "jan",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "feb",
+    "year": 2019,
+    "begin": "18:50",
+    "end": "20:30",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "feb",
+    "year": 2019,
+    "begin": "14:00",
+    "end": "15:10",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "feb",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "feb",
+    "year": 2019,
+    "begin": "10:45",
+    "end": "11:25",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "feb",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "13:00",
+    "type": "chamber",
+    "concert type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "feb",
+    "year": 2019,
+    "begin": "13:05",
+    "end": "14:05",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 6,
+    "month": "feb",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "feb",
+    "year": 2019,
+    "begin": "19:30",
+    "end": "22:00",
+    "type": "concert",
+    "concert type": "wind ensemble"
+  },
+  {
+    "day": 8,
+    "month": "feb",
+    "year": 2019,
+    "begin": "15:40",
+    "end": "17:35",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 9,
+    "month": "feb",
+    "year": 2019,
+    "begin": "16:20",
+    "end": "17:10",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 10,
+    "month": "feb",
+    "year": 2019,
+    "begin": "0:50",
+    "end": "1:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 11,
+    "month": "feb",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 12,
+    "month": "feb",
+    "year": 2019,
+    "begin": "10:35",
+    "end": "11:20",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 12,
+    "month": "feb",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "13:00",
+    "type": "chamber",
+    "concert type": "NA"
+  },
+  {
+    "day": 12,
+    "month": "feb",
+    "year": 2019,
+    "begin": "13:20",
+    "end": "14:20",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 13,
+    "month": "feb",
+    "year": 2019,
+    "begin": "14:00",
+    "end": "15:05",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 13,
+    "month": "feb",
+    "year": 2019,
+    "begin": "16:30",
+    "end": "17:05",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 14,
+    "month": "feb",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "12:45",
+    "type": "sectional",
+    "concert type": "NA"
+  },
+  {
+    "day": 14,
+    "month": "feb",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "14:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 15,
+    "month": "feb",
+    "year": 2019,
+    "begin": "12:35",
+    "end": "13:05",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "feb",
+    "year": 2019,
+    "begin": "16:20",
+    "end": "17:50",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 17,
+    "month": "feb",
+    "year": 2019,
+    "begin": "18:25",
+    "end": "20:40",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "feb",
+    "year": 2019,
+    "begin": "16:50",
+    "end": "18:25",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "feb",
+    "year": 2019,
+    "begin": "12:50",
+    "end": "13:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "feb",
+    "year": 2019,
+    "begin": "14:20",
+    "end": "15:15",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "feb",
+    "year": 2019,
+    "begin": "17:15",
+    "end": "17:40",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "feb",
+    "year": 2019,
+    "begin": "21:00",
+    "end": "22:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 25,
+    "month": "feb",
+    "year": 2019,
+    "begin": "14:35",
+    "end": "15:50",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 25,
+    "month": "feb",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 26,
+    "month": "feb",
+    "year": 2019,
+    "begin": "8:30",
+    "end": "9:30",
+    "type": "brass quintent",
+    "concert type": "NA"
+  },
+  {
+    "day": 26,
+    "month": "feb",
+    "year": 2019,
+    "begin": "9:45",
+    "end": "11:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 26,
+    "month": "feb",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "13:00",
+    "type": "chamber",
+    "concert type": "NA"
+  },
+  {
+    "day": 26,
+    "month": "feb",
+    "year": 2019,
+    "begin": "14:00",
+    "end": "16:30",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 27,
+    "month": "feb",
+    "year": 2019,
+    "begin": "15:50",
+    "end": "16:50",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "feb",
+    "year": 2019,
+    "begin": "11:45",
+    "end": "13:35",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "feb",
+    "year": 2019,
+    "begin": "16:20",
+    "end": "17:25",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "feb",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "mar",
+    "year": 2019,
+    "begin": "11:45",
+    "end": "11:58",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "mar",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "13:00",
+    "type": "sectional",
+    "concert type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "13:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:45",
+    "end": "14:15",
+    "type": "sectional",
+    "concert type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "mar",
+    "year": 2019,
+    "begin": "14:15",
+    "end": "15:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "mar",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "17:30",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "mar",
+    "year": 2019,
+    "begin": "12:40",
+    "end": "13:45",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "mar",
+    "year": 2019,
+    "begin": "14:00",
+    "end": "14:50",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "mar",
+    "year": 2019,
+    "begin": "16:10",
+    "end": "17:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:20",
+    "end": "18:10",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "mar",
+    "year": 2019,
+    "begin": "9:00",
+    "end": "10:00",
+    "type": "concert",
+    "concert type": "chamber masterclass"
+  },
+  {
+    "day": 4,
+    "month": "mar",
+    "year": 2019,
+    "begin": "10:30",
+    "end": "12:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "14:15",
+    "type": "lesson",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "mar",
+    "year": 2019,
+    "begin": "14:20",
+    "end": "15:15",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:15",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "mar",
+    "year": 2019,
+    "begin": "10:55",
+    "end": "11:30",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "mar",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "12:20",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:30",
+    "end": "15:30",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 6,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:25",
+    "end": "14:25",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 6,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:15",
+    "end": "18:25",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "mar",
+    "year": 2019,
+    "begin": "11:35",
+    "end": "11:55",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "mar",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "13:00",
+    "type": "sectional",
+    "concert type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "13:10",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "mar",
+    "year": 2019,
+    "begin": "10:45",
+    "end": "12:00",
+    "type": "solo",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "mar",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:30",
+    "type": "brass choir",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "mar",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "17:30",
+    "type": "orchestra",
+    "concert type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "mar",
+    "year": 2019,
+    "begin": "18:15",
+    "end": "20:00",
+    "type": "concert",
+    "concert type": "trombone masterclass"
   }
 ]

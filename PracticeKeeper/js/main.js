@@ -1,4 +1,14 @@
 function load_data(){
+  // {
+  //   "day": 5,
+  //   "month": "oct",
+  //   "year": 2018,
+  //   "begin": "13:00",
+  //   "end": "14:00",
+  //   "type": "lesson",
+  //   "concert type": "NA"
+  // }
+
   var local_data   = data; // declared in data.json
   var all_sessions = [];
   for (var i = 0; i < local_data.length; i++) { // loop through all json entries

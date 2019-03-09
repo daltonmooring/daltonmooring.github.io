@@ -1,6 +1,6 @@
 var short_months_lc = ["jan","feb","mar","apr","may","jun","jul","aug","sept","oct","nov","dec"]
 var short_months_uc = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"]
-var practice_types  = ["solo","wind ensemble","orchestra","lesson","sectional","concert"]
+var practice_types  = ["solo","wind ensemble","orchestra","lesson","sectional","concert","chamber","brass quintet","brass choir"]
 var long_months     = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 var weekdays        = ["Sunady","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
@@ -110,8 +110,11 @@ function pie_chart_data_of(cal){ //returns number of solo, wind ensemble, orches
   return data_set;
 }
 function pie_chart_data_by_time_of(cal){ //returns TIME of solo, wind ensemble, orchestra, private lesson, sectionals for a given calender
-  var data_set = [0,0,0,0,0];
 
+  var data_set = [];
+  for(var i=0;i<practice_types.length;i++){
+    data_set.push(0);
+  }
   for(var i =0;i<cal.day_array.length;i++){
     for (var j =0;j<cal.day_array[i].sessions.length;j++){
       for(var k=0;k<practice_types.length;k++){

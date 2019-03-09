@@ -8,15 +8,14 @@
   <script src="lib/chart.bundle.min.js"> </script>
   <script src="lib/color-scheme.js">     </script>
   <script src="lib/jscolor.js">          </script>
+  <link href="lib/flat-ui/css/vendor/bootstrap.min.css" rel="stylesheet">
 
   <!--csv file converted to json file using online converter -->
   <script type="text/javascript" src="js/data.json">   </script>
 
-
   <!-- Dependencies For Flat UI -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/popper.js@1.14.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-  <link href="lib/flat-ui/css/vendor/bootstrap.min.css" rel="stylesheet">
 
   <!--Flat UI -->
   <link href="lib/flat-ui/css/flat-ui.css" rel="stylesheet">
@@ -26,13 +25,16 @@
   <script src="js/calendar.js"> </script>
   <script src="js/color.js">    </script>
   <script src="js/main.js">     </script>
+  <link rel="stylesheet" type="text/css" href="css/footer.css" />
   <link rel="stylesheet" type="text/css" href="css/chart.css" />
+
+  <script src="lib/year-cal/js/bootstrap-year-calendar.js"> </script>
+  <link rel="stylesheet" type="text/css" href="lib/year-cal/css/bootstrap-year-calendar.css" />
 
 </head>
 
 <body>
   <div id="TopHalf">
-
     <a href="./home.html">Home</a>
     <p>
     <b>Graphs</b> <!--current page-->
@@ -64,8 +66,7 @@
   </div>
 
   <script>
-  Chart.defaults.global.defaultFontColor = 'black';
-
+    Chart.defaults.global.defaultFontColor = 'black';
     //create first bar graph and doughnut graphs
     var grad_start       = $("#color1").val();
     var grad_end         = $("#color2").val();
@@ -177,15 +178,120 @@
       //create the new graphs
       my_bar      = new Chart(bar_ctx, bar_config);
       my_doughnut = new Chart(doughnut_ctx, doughnut_config);
-
     }
 
   </script>
 
-  <a href="./cal_test.html">Click to see calendar demo</a>
+  <div>
+    <iframe name="frame" style="display:none;"></iframe>
+    <form action="about:blank" method="post" target="frame">
+      <div class="col-lg-2">
+        <div class="form-group">
+          <input type="text" class="form-control jscolor" id="color" value="FF934B">
+            <button type="submit" class="btn btn-primary btn-lg"  value="meow" onclick="refresh_cal()">
+                Change Calendar Color
+            </button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class ="my-div">
+    <div class="calendar" id="calendar"></div>
+  </div>
+
+<script>
+  function refresh_cal(){
+    document.getElementById("calendar").remove();
+    $('.my-div').append('<div class="calendar" id="calendar"></div>');
+    var color = $("#color").val();
+    var colors = generateColor(color,"ECF0F1",max_per_day); //for fade from nothing make second argument white (FFFFFF)
+      var cond_array=[];
+      var heat_mapped_color_array=[];
+      for(var i=0;i<my_cal.day_array.length;i++){
+        var current_day_mins = my_cal.day_array[i].total_practice_time_min;
+        var currentYear = my_cal.day_array[i].currentDay.getFullYear();
+        var currentMonth = my_cal.day_array[i].currentDay.getMonth();
+        var currentDay = my_cal.day_array[i].currentDay.getDate();
+
+        var condition = new Date(currentYear,currentMonth,currentDay).getTime();
+        cond_array.push(condition);
+        var heat_mapped_color =colors[current_day_mins];
+        heat_mapped_color_array.push(heat_mapped_color)
+      }
+    $('#calendar').calendar({
+      minDate: new Date(myStartDate),
+      maxDate: new Date(myEndDate),
+      customDayRenderer: function(element, date) {
+        console.log(cond_array);
+        for(var i=0;i<cond_array.length;i++){
+            if(date.getTime()==cond_array[i]){
+              $(element).css('background-color', heat_mapped_color_array[i]);
+              $(element).css('border-radius', '15px');
+            }
+          }
+      },
+    });
+  }
+
+  var my_cal = load_data();
+  var max_per_day = my_cal.maxTimeInDay()+1;
+  var color = $("#color").val();
+
+  var colors = generateColor(color,"ECF0F1",max_per_day); //for fade from nothing make second argument white (FFFFFF)
+
+
+  var myStartYear =    my_cal.day_array[0].currentDay.getFullYear();
+  var myStartMonth = my_cal.day_array[0].currentDay.getMonth();
+  var myStartDay = my_cal.day_array[0].currentDay.getDate();
+  var myStartDate = new Date(myStartYear, myStartMonth, myStartDay);
+
+  var myEndYear =    my_cal.day_array[my_cal.day_array.length-1].currentDay.getFullYear();
+  var myEndMonth = my_cal.day_array[my_cal.day_array.length-1].currentDay.getMonth();
+  var myEndDay = my_cal.day_array[my_cal.day_array.length-1].currentDay.getDate();
+  var myEndDate = new Date(myEndYear, myEndMonth, myEndDay);
+
+  var cond_array=[];
+  var heat_mapped_color_array=[];
+
+  for(var i=0;i<my_cal.day_array.length;i++){
+    var current_day_mins = my_cal.day_array[i].total_practice_time_min;
+    var currentYear = my_cal.day_array[i].currentDay.getFullYear();
+    var currentMonth = my_cal.day_array[i].currentDay.getMonth();
+    var currentDay = my_cal.day_array[i].currentDay.getDate();
+
+    var condition = new Date(currentYear,currentMonth,currentDay).getTime();
+    cond_array.push(condition);
+    var heat_mapped_color =colors[current_day_mins];
+    heat_mapped_color_array.push(heat_mapped_color)
+  }
+  // setting up calendar
+  $(function() {
+    $('#calendar').calendar({
+      minDate: new Date(myStartDate),
+      maxDate: new Date(myEndDate),
+      customDayRenderer: function(element, date) {
+        for(var i=0;i<cond_array.length;i++){
+            if(date.getTime()==cond_array[i]){
+              $(element).css('background-color', heat_mapped_color_array[i]);
+              $(element).css('border-radius', '15px');
+            }
+          }
+      },
+    });
+  });
+
+</script>
 
 
 
+
+  <div id="footer">
+    <p>
+      A Project by Dalton Mooring. Visit site
+      <a href="https://daltonmooring.github.io" title="Dalton's Website" target="_blank">here</a>.
+    </p>
+  </div>
 
 </body>
 

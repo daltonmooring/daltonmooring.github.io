@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>PracticeKeeper Graph Option</title>
+  <title>PracticeKeeper Graph Options</title>
 
   <!--Libraries-->
   <script src="lib/color-scheme.js"> </script>
@@ -20,60 +20,67 @@
   <!-- Custom js,css and font files -->
   <script src="js/color.js">            </script>
   <link rel="stylesheet" type="text/css" href="css/fontello/css/fontello.css" /> <!--for icons-->
+  <link rel="stylesheet" type="text/css" href="css/footer.css" />
   <link rel="stylesheet" type="text/css" href="css/graph-options.css" />
-
-
 </head>
 
 <body>
-  <body onload="default_gradient()">
+  <body onload="default_gradient()"> <!-- load first gradient on page-->
 
-    <h1>Graph Options</h1>
+
+    <div id="header">
+      <h1>Graph Options<span><i class="icon-wrench"></i></span></h1>
+    </div>
+
     <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-bar"></i></span>
     <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-pie-alt"></i></span>
-    <span style="font-size:50px;color:#C4C4C4"><i class="icon-wrench"></i></span>
+    <!--
+    <span style="font-size:50px;color:#C4C4C4"><i class="icon-wrench"></i></span>-->
     <span style="font-size:50px;color:#C4C4C4"><i class="icon-calendar"></i></span>
 
-
-    <div class="col">
-      <h4>Data To Graph</h4>
-      <form role="form">
-        <div class="form-group">
-          <label class="checkbox" for="checkbox1">
-            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox1" required>
-            Individual Practice
-          </label>
-          <label class="checkbox" for="checkbox2">
-            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox2" required>
-            Wind Ensemble Rehearsals
-          </label>
-          <label class="checkbox" for="checkbox3">
-            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox3" required>
-            Orchestra Rehearsals
-          </label>
-          <label class="checkbox" for="checkbox4">
-            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox4" required>
-            Private Lessons
-          </label>
-          <label class="checkbox" for="checkbox5">
-            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox5" required>
-            Sectionals
-          </label>
-          <label class="checkbox" for="checkbox6">
-            <input type="checkbox" data-toggle="checkbox" value="" id="checkbox6" required>
-            Concerts
-          </label>
-          <label class="checkbox toggle-all" for="select_all">
-            <input type="checkbox" data-toggle="checkbox" value="" id="select_all">
-            All
-          </label>
-        </div>
-      </form>
+     <div id="data-options">
+      <div class="col-md-6">
+        <h4>Which Data Should Be Included?</h4>
+        <form role="form">
+          <div class="form-group">
+            <label class="checkbox" for="checkbox1">
+              <input type="checkbox" data-toggle="checkbox" value="" id="checkbox1">
+              Individual Practice
+            </label>
+            <label class="checkbox" for="checkbox2">
+              <input type="checkbox" data-toggle="checkbox" value="" id="checkbox2">
+              Wind Ensemble Rehearsals
+            </label>
+            <label class="checkbox" for="checkbox3">
+              <input type="checkbox" data-toggle="checkbox" value="" id="checkbox3">
+              Orchestra Rehearsals
+            </label>
+            <label class="checkbox" for="checkbox4">
+              <input type="checkbox" data-toggle="checkbox" value="" id="checkbox4">
+              Private Lessons
+            </label>
+            <label class="checkbox" for="checkbox5">
+              <input type="checkbox" data-toggle="checkbox" value="" id="checkbox5">
+              Sectionals
+            </label>
+            <label class="checkbox" for="checkbox6">
+              <input type="checkbox" data-toggle="checkbox" value="" id="checkbox6">
+              Concerts
+            </label>
+            <label class="checkbox toggle-all" for="select_all">
+              <input type="checkbox" data-toggle="checkbox" value="" id="select_all">
+              All
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="explain-text">
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt pharetra imperdiet. Vivamus risus diam, vehicula ornare convallis eu, scelerisque quis leo. Ut ut eros id sapien condimentum tincidunt. Phasellus gravida leo sed risus semper dictum. Quisque sed augue justo. Integer sagittis odio quis nulla placerat volutpat. Etiam auctor nisl eget mi blandit, et ultricies libero convallis. Nam scelerisque eleifend vulputate. In id tortor ex. Mauris suscipit libero vel risus aliquet semper. Aliquam tincidunt purus non commodo faucibus. Vivamus cursus fermentum fermentum. Quisque semper justo commodo ante lobortis venenatis.</p>
     </div>
 
     <div>
-
-      <h3>Sample Gradient Colors</h3>
+      <h3>Choose Your Colors</h3>
       <iframe name="frame" style="display:none;"></iframe>
       <form action="about:blank" method="post" target="frame">
         <div class="col-lg-2">
@@ -88,80 +95,70 @@
       </form>
     </div>
 
-
-    <h3>Gradient Sample:</h3>
-    <div class="wrapper">
-      <div class="rectangle" id="rectangle1"></div>
-      <div class="rectangle" id="rectangle2"></div>
-      <div class="rectangle" id="rectangle3"></div>
-      <div class="rectangle" id="rectangle4"></div>
-      <div class="rectangle" id="rectangle5"></div>
-      <div class="rectangle" id="rectangle6"></div>
-      <div class="rectangle" id="rectangle7"></div>
-      <div class="rectangle" id="rectangle8"></div>
-      <div class="rectangle" id="rectangle9"></div>
+    <div class="gradient">
+      <h3>Gradient Sample:</h3>
     </div>
 
-
-    <script>
-      function default_gradient(){
-        var color1 = $("#color1").val();
-        var color2 = $("#color2").val();
-        var color_array=generateColor(color2,color1,8);
-        document.getElementById("rectangle1").style.backgroundColor = color_array[0];
-        document.getElementById("rectangle2").style.backgroundColor = color_array[1];
-        document.getElementById("rectangle3").style.backgroundColor = color_array[2];
-        document.getElementById("rectangle4").style.backgroundColor = color_array[3];
-        document.getElementById("rectangle5").style.backgroundColor = color_array[4];
-        document.getElementById("rectangle6").style.backgroundColor = color_array[5];
-        document.getElementById("rectangle7").style.backgroundColor = color_array[6];
-        document.getElementById("rectangle8").style.backgroundColor = color_array[7];
-        document.getElementById("rectangle9").style.backgroundColor = color_array[8];
-      }
-    </script>
+    <!-- <div id="slider"></div> -->
 
 
-    <script>
-      function display_grad(){
-        var color1 = $("#color1").val();
-        var color2 = $("#color2").val();
-        var color_array=generateColor(color2,color1,8);
-        document.getElementById("rectangle1").style.backgroundColor = color_array[0];
-        document.getElementById("rectangle2").style.backgroundColor = color_array[1];
-        document.getElementById("rectangle3").style.backgroundColor = color_array[2];
-        document.getElementById("rectangle4").style.backgroundColor = color_array[3];
-        document.getElementById("rectangle5").style.backgroundColor = color_array[4];
-        document.getElementById("rectangle6").style.backgroundColor = color_array[5];
-        document.getElementById("rectangle7").style.backgroundColor = color_array[6];
-        document.getElementById("rectangle8").style.backgroundColor = color_array[7];
-        document.getElementById("rectangle9").style.backgroundColor = color_array[8];
-  }
-
-    </script>
-
-
-
-
-    <button type="button" class="btn btn-primary btn-hg" id="goButton">
-        Go
+    <button type="button" class="btn btn-primary btn-hg" id="nextButton">
+        Next
     </button>
 
-  <script type="text/javascript">
-      document.getElementById("goButton").onclick = function () {
-          location.href = "./chart.html";
-      };
-  </script>
+    <div id="footer">
+      <p>
+        A Project by Dalton Mooring. Visit site
+        <a href="https://daltonmooring.github.io" title="Dalton's Website" target="_blank">here</a>.
+      </p>
+    </div>
 
   <script>
+    var num_circles = 20;
+
+    function default_gradient(){ //creating defeault gradent
+      var color1 = $("#color1").val();
+      var color2 = $("#color2").val();
+      var color_array=generateColor(color2,color1,num_circles+1);
+      for (var i = 0; i < num_circles; i++) {
+        $('.gradient').append('<div id="circle-' + i + '"class="circle"</div>');
+        document.getElementById("circle-"+i).style.backgroundColor = color_array[i];
+      }
+      $('.gradient').append('<br>');
+    }
+
+    function display_grad(){
+      var color1 = $("#color1").val();
+      var color2 = $("#color2").val();
+      var color_array=generateColor(color2,color1,num_circles+1);
+      for (var i = 0; i < num_circles; i++) {
+        document.getElementById("circle-"+i).style.backgroundColor = color_array[i];
+      }
+  }
+      document.getElementById("nextButton").onclick = function () {
+          location.href = "./chart.html";
+      };
+
     $("#select_all").click(function () {
         $('input:checkbox').not(this).prop('checked', this.checked);
     });
-  </script>
 
-  <script>
     $(document).ready(function () {
         $(':checkbox').radiocheck();
     });
+
+    var $slider = $("#slider");
+    if ($slider.length > 0) {
+      $slider.slider({
+        min: 5,
+        max: 20,
+        value: 1,
+        orientation: "horizontal",
+        range: "min"
+      }).addSliderSegments($slider.slider("option").max);
+    }
+
+
 </script>
 
 </body>
