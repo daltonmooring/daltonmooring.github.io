@@ -161,7 +161,7 @@ function create_pie_graph(){
 
 function create_cal(){
   num_colors = chart_data.maxTimeInDay()+1; // maximum number of minutes practiced in one day+1
-  color      = color1_start;
+  color      = cal_color;
   colors     = generateColor(color,"ECF0F1",num_colors); // gradient from first arguement to second arguement in third arguement number of colors
   //for fade from nothing make second argument white (FFFFFF)
 
