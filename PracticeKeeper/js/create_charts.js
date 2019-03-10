@@ -66,12 +66,13 @@ function get_page_data(){ // retrieve information about updated colors
   cal_color  = $("#cal_color").val();
 }
 
+
 //functions to create charts on page load
 function create_bar_graph(){
   bar_graph_data     = make_bar_data(chart_data);
   bar_graph_labels   = make_data_labels(chart_data);
   bar_graph_title    = chart_data.print_bar_title();
-  bar_graph_gradient = generateColor(color1_start,color2_start,bar_graph_data.length);
+  bar_graph_gradient = generateColor(grad_start,grad_end,bar_graph_data.length);
   bar_config         = {
       type: 'bar',
       data:{
@@ -101,9 +102,10 @@ function create_bar_graph(){
 
 
 function create_doughnut_graph() {
+  get_page_data();
   doughnut_chart_data  = pie_chart_data_by_time_of(chart_data);
   doughunt_graph_title = "Practice Time in Minutes";
-  doughnut_colors = generateColor(color1_start,color2_start,doughnut_chart_data.length);
+  doughnut_colors = generateColor(grad_start,grad_end,doughnut_chart_data.length);
   doughnut_ctx    = document.getElementById("doughnut-graph").getContext('2d');
   doughnut_config = {
       type: 'doughnut',
@@ -132,7 +134,7 @@ function create_doughnut_graph() {
 function create_pie_graph(){
   pie_chart_data  = pie_chart_data_by_time_of(chart_data);
   pie_graph_title = "Practice Time in Minutes";
-  pie_colors = generateColor(color1_start,color2_start,pie_chart_data.length);
+  pie_colors = generateColor(grad_start,grad_end,pie_chart_data.length);
   pie_ctx    = document.getElementById("pie-graph").getContext('2d');
   pie_config = {
       type: 'pie',
@@ -213,6 +215,13 @@ function create_cal(){
 function refresh_all_charts(){ // a function to.... refresh all charts
   get_page_data();
   destroy_all_charts();
+  create_bar_graph();
+  create_doughnut_graph();
+  create_pie_graph();
+}
+
+function create_first_charts(){
+  get_page_data();
   create_bar_graph();
   create_doughnut_graph();
   create_pie_graph();

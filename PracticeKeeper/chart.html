@@ -8,7 +8,7 @@
   <script src="lib/chart.bundle.min.js"> </script>
   <script src="lib/color-scheme.js">     </script>
   <script src="lib/jscolor.js">          </script>
-  <link href="lib/flat-ui/css/vendor/bootstrap.min.css" rel="stylesheet">
+  <link href ="lib/flat-ui/css/vendor/bootstrap.min.css" rel="stylesheet">
 
   <!--csv file converted to json file using online converter -->
   <script type="text/javascript" src="js/data.json">   </script>
@@ -22,10 +22,10 @@
   <script src="lib/flat-ui/scripts/flat-ui.js"></script>
 
   <!-- Custom js and css files -->
-  <script src="js/create_charts.js"> </script>
+  <script src="js/main.js">     </script>
   <script src="js/calendar.js"> </script>
   <script src="js/color.js">    </script>
-  <script src="js/main.js">     </script>
+  <script src="js/create_charts.js">     </script>
 
   <link rel="stylesheet" type="text/css" href="css/footer.css" />
   <link rel="stylesheet" type="text/css" href="css/chart.css" />
@@ -36,9 +36,6 @@
 </head>
 
 <body>
-
-
-
   <script>
     var parameters = location.search.substring(1).split("&");
     var data_choices = parameters[0].split("=")[1];
@@ -76,13 +73,10 @@
       <canvas id="pie-graph" height="400"></canvas>
     </div>
 
-    <script src="js/create_charts.js">     </script>
 
     <script>
-      create_bar_graph();
-      create_doughnut_graph();
-      create_cal();
-      create_pie_graph();
+    create_first_charts();
+    create_cal();
     </script>
 
     <div id="calendar_grad">
