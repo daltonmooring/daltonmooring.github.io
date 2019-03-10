@@ -1,7 +1,8 @@
 //global variables
-var grad_start = "FF934B";
-var grad_end = "FF5BDB";
-var cal_color = "FF934B"
+var parameters = location.search.substring(1).split("&");
+var grad_start = parameters[1].split("=")[1];
+var grad_end = parameters[2].split("=")[1];
+var cal_color = parameters[2].split("=")[1]
 var chart_data  = load_data();
 var canvases = [];
 // data needed to make bar graph
@@ -54,11 +55,6 @@ var cond_array
 // gradients and colors needed
 var pie_doughnut_gradient;
 
-
-var parameters = location.search.substring(1).split("&");
-var data_choices = parameters[0].split("=")[1];
-var color1_start = parameters[1].split("=")[1];
-var color2_start = parameters[2].split("=")[1];
 
 function get_page_data(){ // retrieve information about updated colors
   grad_start = $("#grad_start").val();
