@@ -22,9 +22,11 @@
   <script src="lib/flat-ui/scripts/flat-ui.js"></script>
 
   <!-- Custom js and css files -->
+  <script src="js/create_charts.js"> </script>
   <script src="js/calendar.js"> </script>
   <script src="js/color.js">    </script>
   <script src="js/main.js">     </script>
+
   <link rel="stylesheet" type="text/css" href="css/footer.css" />
   <link rel="stylesheet" type="text/css" href="css/chart.css" />
 
@@ -34,264 +36,73 @@
 </head>
 
 <body>
-  <div id="TopHalf">
-    <a href="./home.html">Home</a>
-    <p>
-    <b>Graphs</b> <!--current page-->
-    <p>
-    <a href="./about.html">About</a>
-
-    <iframe name="frame" style="display:none;"></iframe>
-
-    <form action="about:blank" method="post" target="frame">
-      <input name="color1" class="jscolor" id="color2" value="FF934B">
-      <input name="color2" class="jscolor" id="color1" value="FF5BDB">
-      <button type="submit" class="btn btn-primary btn-lg"  value="Refresh Graphs" onclick="redraw_charts()">
-          Refresh Graphs
-      </button>
-
-    </form>
 
 
-    <div id="bar-chart">
-      <canvas id="bar-graph" width="800" height="450"></canvas>
-    </div>
-
-  </div>
-
-  <div id="BottomHalf">
-    <div id="doughnut-graph">
-      <canvas id="doughnut-chart" width="800" height="450"></canvas>
-    </div>
-  </div>
 
   <script>
-    Chart.defaults.global.defaultFontColor = 'black';
-    //create first bar graph and doughnut graphs
-    var grad_start       = $("#color1").val();
-    var grad_end         = $("#color2").val();
-    var chart_data       = load_data();
-    var bar_chart_data   = make_bar_data(chart_data);
-    var bar_graph_labels = make_data_labels(chart_data);
-    var colors           = generateColor(grad_start,grad_end,chart_data.length);
-    var title            = chart_data.print_bar_title();
-    var bar_ctx          = document.getElementById("bar-graph").getContext('2d');
-    var bar_config       = {
-        type: 'bar',
-        data:{
-          labels: bar_graph_labels,
-          datasets:[{
-            data:bar_chart_data,
-            backgroundColor: colors
-          }]
-        },
-        options: {
-          legend:{
-            display:false,
-          },
-          responsive: true,
-          maintainAspectRatio: false,
-          title:{
-            display: true,
-            text:title,
-            fontColor:"black"
-          }
-        }
-      }
-
-    var pie_chart_data  = pie_chart_data_of(chart_data);
-    var doughnut_colors = generateColor(grad_start,grad_end,pie_chart_data.length);
-    var doughnut_ctx    = document.getElementById("doughnut-chart").getContext('2d');
-    var doughnut_config = {
-        type: 'doughnut',
-        data: {
-          labels: practice_types,
-          datasets: [
-            {
-              backgroundColor: doughnut_colors,
-              data: pie_chart_data
-            }
-          ]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false
-        }
-    }
-    //create
-    var my_doughnut = new Chart(doughnut_ctx, doughnut_config);
-    var my_bar      = new Chart(bar_ctx, bar_config);
-
-
-    function redraw_charts(){
-      my_bar.destroy();
-      my_doughnut.destroy();
-      var updated_grad_start = $("#color1").val();
-      var updated_grad_end   = $("#color2").val();
-      var bar_chart_data     = make_bar_data(chart_data);
-      var bar_graph_labels   = make_data_labels(chart_data);
-      var bar_colors         = generateColor(updated_grad_start,updated_grad_end,chart_data.length);
-      var title              = chart_data.print_bar_title();
-      var bar_ctx            = document.getElementById("bar-graph").getContext('2d');
-      var bar_config = {
-          type: 'bar',
-          data:{
-            labels: bar_graph_labels,
-            datasets:[{
-              data:bar_chart_data,
-              backgroundColor: bar_colors
-            }]
-          },
-          options: {
-            legend:{
-              display:false,
-            },
-            responsive: true,
-            maintainAspectRatio: false,
-            title:{
-              display: true,
-              text:title,
-              fontColor:"black"
-            }
-          }
-        }
-
-      var pie_chart_data  = pie_chart_data_of(chart_data);
-      var doughnut_colors = generateColor(updated_grad_start,updated_grad_end,pie_chart_data.length);
-      var doughnut_ctx    = document.getElementById("doughnut-chart").getContext('2d');
-      var doughnut_config = {
-          type: 'doughnut',
-          data: {
-            labels: practice_types,
-            datasets: [
-              {
-                backgroundColor: doughnut_colors,
-                data: pie_chart_data
-              }
-            ]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false
-          }
-      }
-      //create the new graphs
-      my_bar      = new Chart(bar_ctx, bar_config);
-      my_doughnut = new Chart(doughnut_ctx, doughnut_config);
-    }
-
+    var parameters = location.search.substring(1).split("&");
+    var data_choices = parameters[0].split("=")[1];
+    var color1_start = parameters[1].split("=")[1];
+    var color2_start = parameters[2].split("=")[1];
   </script>
 
-  <div>
-    <iframe name="frame" style="display:none;"></iframe>
-    <form action="about:blank" method="post" target="frame">
-      <div class="col-lg-2">
-        <div class="form-group">
-          <input type="text" class="form-control jscolor" id="color" value="FF934B">
-            <button type="submit" class="btn btn-primary btn-lg"  value="meow" onclick="refresh_cal()">
-                Change Calendar Color
-            </button>
+  <div id="TopHalf">
+    <a href="./home.html">Home</a>
+    <b> Graphs </b> <!--current page-->
+    <a href="./about.html">About</a>
+
+    <div id="grad_buttons">
+      <iframe name="frame" style="display:none"></iframe>
+      <form action="about:blank" method="post" target="frame">
+        <input name="color1" class="jscolor" id="grad_start" value="">
+        <input name="color2" class="jscolor" id="grad_end" value="">
+        <script>
+        document.getElementById("grad_start").value=color1_start;
+        document.getElementById("grad_end").value=color2_start;
+        </script>
+        <button type="submit" class="btn btn-primary btn-lg"  value="Refresh Graphs" onclick="refresh_all_charts()">
+            Refresh Graphs
+        </button>
+      </form>
+    </div>
+
+    <div>
+      <canvas id="bar-graph" height="450"></canvas>
+    </div>
+    <div>
+      <canvas id="doughnut-graph" height="400"></canvas>
+    </div>
+    <div>
+      <canvas id="pie-graph" height="400"></canvas>
+    </div>
+
+    <script src="js/create_charts.js">     </script>
+
+    <script>
+      create_bar_graph();
+      create_doughnut_graph();
+      create_cal();
+      create_pie_graph();
+    </script>
+
+    <div id="calendar_grad">
+      <iframe name="frame" style="display:none;"></iframe>
+      <form action="about:blank" method="post" target="frame">
+        <div class="col-lg-2">
+          <div class="form-group">
+            <input type="text" class="form-control jscolor" id="cal_color" value="FF934B">
+              <button type="submit" class="btn btn-primary btn-lg"  value="meow" onclick="refresh_cal()">
+                  Change Calendar Color
+              </button>
+          </div>
         </div>
-      </div>
-    </form>
-  </div>
+      </form>
+    </div>
 
-  <div class ="my-div">
-    <div class="calendar" id="calendar"></div>
-  </div>
+    <div class ="my-div">
+      <div class="calendar" id="calendar"></div>
+    </div>
 
-<script>
-  function refresh_cal(){
-    document.getElementById("calendar").remove();
-    $('.my-div').append('<div class="calendar" id="calendar"></div>');
-    var color = $("#color").val();
-    var colors = generateColor(color,"ECF0F1",max_per_day); //for fade from nothing make second argument white (FFFFFF)
-      var cond_array=[];
-      var heat_mapped_color_array=[];
-      for(var i=0;i<my_cal.day_array.length;i++){
-        var current_day_mins = my_cal.day_array[i].total_practice_time_min;
-        var currentYear = my_cal.day_array[i].currentDay.getFullYear();
-        var currentMonth = my_cal.day_array[i].currentDay.getMonth();
-        var currentDay = my_cal.day_array[i].currentDay.getDate();
-
-        var condition = new Date(currentYear,currentMonth,currentDay).getTime();
-        cond_array.push(condition);
-        var heat_mapped_color =colors[current_day_mins];
-        heat_mapped_color_array.push(heat_mapped_color)
-      }
-    $('#calendar').calendar({
-      minDate: new Date(myStartDate),
-      maxDate: new Date(myEndDate),
-      customDayRenderer: function(element, date) {
-        console.log(cond_array);
-        for(var i=0;i<cond_array.length;i++){
-            if(date.getTime()==cond_array[i]){
-              $(element).css('background-color', heat_mapped_color_array[i]);
-              $(element).css('border-radius', '15px');
-            }
-          }
-      },
-    });
-  }
-
-  var my_cal = load_data();
-  var max_per_day = my_cal.maxTimeInDay()+1;
-  var color = $("#color").val();
-
-  var colors = generateColor(color,"ECF0F1",max_per_day); //for fade from nothing make second argument white (FFFFFF)
-
-
-  var myStartYear =    my_cal.day_array[0].currentDay.getFullYear();
-  var myStartMonth = my_cal.day_array[0].currentDay.getMonth();
-  var myStartDay = my_cal.day_array[0].currentDay.getDate();
-  var myStartDate = new Date(myStartYear, myStartMonth, myStartDay);
-
-  var myEndYear =    my_cal.day_array[my_cal.day_array.length-1].currentDay.getFullYear();
-  var myEndMonth = my_cal.day_array[my_cal.day_array.length-1].currentDay.getMonth();
-  var myEndDay = my_cal.day_array[my_cal.day_array.length-1].currentDay.getDate();
-  var myEndDate = new Date(myEndYear, myEndMonth, myEndDay);
-
-  var cond_array=[];
-  var heat_mapped_color_array=[];
-
-  for(var i=0;i<my_cal.day_array.length;i++){
-    var current_day_mins = my_cal.day_array[i].total_practice_time_min;
-    var currentYear = my_cal.day_array[i].currentDay.getFullYear();
-    var currentMonth = my_cal.day_array[i].currentDay.getMonth();
-    var currentDay = my_cal.day_array[i].currentDay.getDate();
-
-    var condition = new Date(currentYear,currentMonth,currentDay).getTime();
-    cond_array.push(condition);
-    var heat_mapped_color =colors[current_day_mins];
-    heat_mapped_color_array.push(heat_mapped_color)
-  }
-  // setting up calendar
-  $(function() {
-    $('#calendar').calendar({
-      minDate: new Date(myStartDate),
-      maxDate: new Date(myEndDate),
-      customDayRenderer: function(element, date) {
-        for(var i=0;i<cond_array.length;i++){
-            if(date.getTime()==cond_array[i]){
-              $(element).css('background-color', heat_mapped_color_array[i]);
-              $(element).css('border-radius', '15px');
-            }
-          }
-      },
-    });
-  });
-
-</script>
-
-
-
-
-  <div id="footer">
-    <p>
-      A Project by Dalton Mooring. Visit site
-      <a href="https://daltonmooring.github.io" title="Dalton's Website" target="_blank">here</a>.
-    </p>
-  </div>
 
 </body>
 

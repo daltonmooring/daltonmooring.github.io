@@ -19,6 +19,8 @@
 
   <!-- Custom js,css and font files -->
   <script src="js/color.js">            </script>
+  <script src="js/calendar.js"> </script>
+
   <link rel="stylesheet" type="text/css" href="css/fontello/css/fontello.css" /> <!--for icons-->
   <link rel="stylesheet" type="text/css" href="css/footer.css" />
   <link rel="stylesheet" type="text/css" href="css/graph-options.css" />
@@ -34,26 +36,25 @@
 
     <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-bar"></i></span>
     <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-pie-alt"></i></span>
-    <!--
-    <span style="font-size:50px;color:#C4C4C4"><i class="icon-wrench"></i></span>-->
     <span style="font-size:50px;color:#C4C4C4"><i class="icon-calendar"></i></span>
+
 
      <div id="data-options">
       <div class="col-md-6">
         <h4>Which Data Should Be Included?</h4>
         <form role="form">
-          <div class="form-group">
+          <div class="form-group" >
             <label class="checkbox" for="checkbox1">
               <input type="checkbox" data-toggle="checkbox" value="" id="checkbox1">
-              Individual Practice
+              Wind Ensemble Rehearsals
             </label>
             <label class="checkbox" for="checkbox2">
               <input type="checkbox" data-toggle="checkbox" value="" id="checkbox2">
-              Wind Ensemble Rehearsals
+              Orchestra Rehearsals
             </label>
             <label class="checkbox" for="checkbox3">
               <input type="checkbox" data-toggle="checkbox" value="" id="checkbox3">
-              Orchestra Rehearsals
+              Individual Practice
             </label>
             <label class="checkbox" for="checkbox4">
               <input type="checkbox" data-toggle="checkbox" value="" id="checkbox4">
@@ -61,11 +62,15 @@
             </label>
             <label class="checkbox" for="checkbox5">
               <input type="checkbox" data-toggle="checkbox" value="" id="checkbox5">
-              Sectionals
+              Performances
             </label>
             <label class="checkbox" for="checkbox6">
               <input type="checkbox" data-toggle="checkbox" value="" id="checkbox6">
-              Concerts
+              Sectionals
+            </label>
+            <label class="checkbox" for="checkbox7">
+              <input type="checkbox" data-toggle="checkbox" value="" id="checkbox7">
+              Chamber
             </label>
             <label class="checkbox toggle-all" for="select_all">
               <input type="checkbox" data-toggle="checkbox" value="" id="select_all">
@@ -76,8 +81,15 @@
       </div>
     </div>
     <div id="explain-text">
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt pharetra imperdiet. Vivamus risus diam, vehicula ornare convallis eu, scelerisque quis leo. Ut ut eros id sapien condimentum tincidunt. Phasellus gravida leo sed risus semper dictum. Quisque sed augue justo. Integer sagittis odio quis nulla placerat volutpat. Etiam auctor nisl eget mi blandit, et ultricies libero convallis. Nam scelerisque eleifend vulputate. In id tortor ex. Mauris suscipit libero vel risus aliquet semper. Aliquam tincidunt purus non commodo faucibus. Vivamus cursus fermentum fermentum. Quisque semper justo commodo ante lobortis venenatis.</p>
-    </div>
+      <p> The current site is a work in progress so there are some buttons may not do anything or respond strangely, but the idea of the project is for me to keep track of my practice habits throughout my time at the University of Ottawa studying Tenor Trombone.
+        This project was an idea that came to me one day while walking home and wondering why there are no apps/ websites that help you visualize and track your practice habits.
+        By manipulating and analyzing data I hope to bring new insights to my own practice to help me better utilize the time I spend and eventually help others do the same.
+        As with many things in life it is important to note that practicing more does not make you better.
+        The musician that spends 2 hours of focused and thoughtful practice is often more successful than the musician who approaches their craft with a brute force and repetition as a means to improve and hone their skills.
+        This site will be updated as a find the time to do so to make it run better, and be more user friendly.  Please feel free to email me with any features you'd like to see changed, added or even removed.
+        My email is daltonmooring@gmail.com; enjoy.
+      </p>
+        </div>
 
     <div>
       <h3>Choose Your Colors</h3>
@@ -87,7 +99,7 @@
           <div class="form-group">
             <input type="text" class="form-control jscolor" id="color1" value="FF934B">
             <input type="text" class="form-control jscolor" id="color2" value="FF5BDB">
-              <button type="submit" class="btn btn-primary btn-lg"  value="Display Gradient" onclick="display_grad()">
+              <button type="submit" class="btn btn-primary btn-lg"  value="Display Gradient" onclick="display_grad();generateLink()">
                   Display Graient
               </button>
           </div>
@@ -101,10 +113,25 @@
 
     <!-- <div id="slider"></div> -->
 
+    <script>
+    function generateLink(){
+      var final="?d=";
+      for(var i=1;i!=8;i++){
+        var current= document.getElementById("checkbox"+i).checked;
+        if(current===true) final+="1";
+        if (current===false) final+="0";
+      }
+      final+="&c1="+document.getElementById("color1").value;
+      final+="&c2="+document.getElementById("color2").value;
+      return final;
+    }
+    </script>
 
-    <button type="button" class="btn btn-primary btn-hg" id="nextButton">
+
+    <button type="button" class="btn btn-primary btn-hg" id="nextButton" onclick="generateLink()">
         Next
     </button>
+
 
     <div id="footer">
       <p>
@@ -115,7 +142,6 @@
 
   <script>
     var num_circles = 20;
-
     function default_gradient(){ //creating defeault gradent
       var color1 = $("#color1").val();
       var color2 = $("#color2").val();
@@ -134,10 +160,11 @@
       for (var i = 0; i < num_circles; i++) {
         document.getElementById("circle-"+i).style.backgroundColor = color_array[i];
       }
-  }
-      document.getElementById("nextButton").onclick = function () {
-          location.href = "./chart.html";
-      };
+    }
+    document.getElementById("nextButton").onclick = function () {
+      var meta_data=generateLink();
+      location.href = "./chart.html"+meta_data;
+    };
 
     $("#select_all").click(function () {
         $('input:checkbox').not(this).prop('checked', this.checked);
@@ -147,19 +174,8 @@
         $(':checkbox').radiocheck();
     });
 
-    var $slider = $("#slider");
-    if ($slider.length > 0) {
-      $slider.slider({
-        min: 5,
-        max: 20,
-        value: 1,
-        orientation: "horizontal",
-        range: "min"
-      }).addSliderSegments($slider.slider("option").max);
-    }
 
-
-</script>
+  </script>
 
 </body>
 

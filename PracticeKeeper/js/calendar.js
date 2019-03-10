@@ -1,8 +1,8 @@
-var short_months_lc = ["jan","feb","mar","apr","may","jun","jul","aug","sept","oct","nov","dec"]
-var short_months_uc = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"]
-var practice_types  = ["solo","wind ensemble","orchestra","lesson","sectional","concert","chamber","brass quintet","brass choir"]
-var long_months     = ["January","February","March","April","May","June","July","August","September","October","November","December"]
-var weekdays        = ["Sunady","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+var short_months_lc     = ["jan","feb","mar","apr","may","jun","jul","aug","sept","oct","nov","dec"]
+var short_months_uc     = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"]
+var practice_types      = ["solo","wind ensemble","orchestra","lesson","sectional","performance","chamber"]
+var long_months         = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+var weekdays            = ["Sunady","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
 // helper functions
 function month_to_num(month){ // converts a string month into a 0-11 number for the date object

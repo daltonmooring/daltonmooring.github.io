@@ -6,7 +6,7 @@ function load_data(){
   //   "begin": "13:00",
   //   "end": "14:00",
   //   "type": "lesson",
-  //   "concert type": "NA"
+  //   "performance type": "NA"
   // }
 
   var local_data   = data; // declared in data.json

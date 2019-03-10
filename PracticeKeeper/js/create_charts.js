@@ -54,6 +54,12 @@ var cond_array
 // gradients and colors needed
 var pie_doughnut_gradient;
 
+
+var parameters = location.search.substring(1).split("&");
+var data_choices = parameters[0].split("=")[1];
+var color1_start = parameters[1].split("=")[1];
+var color2_start = parameters[2].split("=")[1];
+
 function get_page_data(){ // retrieve information about updated colors
   grad_start = $("#grad_start").val();
   grad_end   = $("#grad_end").val();
@@ -65,7 +71,7 @@ function create_bar_graph(){
   bar_graph_data     = make_bar_data(chart_data);
   bar_graph_labels   = make_data_labels(chart_data);
   bar_graph_title    = chart_data.print_bar_title();
-  bar_graph_gradient = generateColor(grad_start,grad_end,bar_graph_data.length);
+  bar_graph_gradient = generateColor(color1_start,color2_start,bar_graph_data.length);
   bar_config         = {
       type: 'bar',
       data:{
@@ -97,7 +103,7 @@ function create_bar_graph(){
 function create_doughnut_graph() {
   doughnut_chart_data  = pie_chart_data_by_time_of(chart_data);
   doughunt_graph_title = "Practice Time in Minutes";
-  doughnut_colors = generateColor(grad_start,grad_end,doughnut_chart_data.length);
+  doughnut_colors = generateColor(color1_start,color2_start,doughnut_chart_data.length);
   doughnut_ctx    = document.getElementById("doughnut-graph").getContext('2d');
   doughnut_config = {
       type: 'doughnut',
@@ -126,7 +132,7 @@ function create_doughnut_graph() {
 function create_pie_graph(){
   pie_chart_data  = pie_chart_data_by_time_of(chart_data);
   pie_graph_title = "Practice Time in Minutes";
-  pie_colors = generateColor(grad_start,grad_end,pie_chart_data.length);
+  pie_colors = generateColor(color1_start,color2_start,pie_chart_data.length);
   pie_ctx    = document.getElementById("pie-graph").getContext('2d');
   pie_config = {
       type: 'pie',
@@ -155,7 +161,7 @@ function create_pie_graph(){
 
 function create_cal(){
   num_colors = chart_data.maxTimeInDay()+1; // maximum number of minutes practiced in one day+1
-  color      = cal_color;
+  color      = color1_start;
   colors     = generateColor(color,"ECF0F1",num_colors); // gradient from first arguement to second arguement in third arguement number of colors
   //for fade from nothing make second argument white (FFFFFF)
 
