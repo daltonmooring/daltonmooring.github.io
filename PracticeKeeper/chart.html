@@ -79,7 +79,10 @@
       <form action="about:blank" method="post" target="frame">
         <div class="col-lg-2">
           <div class="form-group">
-            <input type="text" class="form-control jscolor" id="cal_color" value="FF934B">
+            <input type="text" class="form-control jscolor" id="cal_color" value="">
+            <script>
+              document.getElementById("cal_color").value=color2_start;
+            </script>
               <button type="submit" class="btn btn-primary btn-lg"  value="meow" onclick="refresh_cal()">
                   Change Calendar Color
               </button>
