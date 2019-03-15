@@ -501,8 +501,8 @@ var data =
     "day": 16,
     "month": "nov",
     "year": 2018,
-    "begin": "14:00",
-    "end": "13:00",
+    "begin": "13:00",
+    "end": "14:00",
     "type": "lesson",
     "performance type": "NA"
   },

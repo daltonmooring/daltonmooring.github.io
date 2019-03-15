@@ -1,4 +1,4 @@
-function load_data(){
+function load_data(input_choices){
   // {
   //   "day": 5,
   //   "month": "oct",
@@ -8,10 +8,35 @@ function load_data(){
   //   "type": "lesson",
   //   "performance type": "NA"
   // }
+  var skip_list = [];
+  if(input_choices[0]==="0"){
+    skip_list.push("wind ensemble")
+  }
+  if(input_choices[1]==="0"){
+    skip_list.push("orchestra")
+  }
+  if(input_choices[2]==="0"){
+    skip_list.push("solo")
+  }
+  if(input_choices[3]==="0"){
+    skip_list.push("lesson")
+  }
+  if(input_choices[4]==="0"){
+    skip_list.push("performance")
+  }
+  if(input_choices[5]==="0"){
+    skip_list.push("sectional")
+  }
+  if(input_choices[6]==="0"){
+    skip_list.push("chamber")
+  }
+
 
   var local_data   = data; // declared in data.json
   var all_sessions = [];
+  var skip;
   for (var i = 0; i < local_data.length; i++) { // loop through all json entries
+    skip = false;
     var current_day     = local_data[i]; // complete entry
     var year            = parseInt(current_day.year,10);
     var month           = current_day.month;
@@ -22,6 +47,14 @@ function load_data(){
     var minutes_end     = parseInt(current_day.end.slice(3,5),10);
     var type            = current_day.type;
     month               = month_to_num(month);
+    for (var j=0;j<skip_list.length;j++){
+      if (type===skip_list[j]) {
+        console.log(type);
+        skip = true;
+        break;
+      }
+    }
+    if (skip) continue;
     // using parseInt to convert json info from string to number, second arguemnt is base of number system (radix)
     var session_start   = new Date(year,month,day,hour_start,minutes_start);
     var session_end     = new Date(year,month,day,hour_end,minutes_end);

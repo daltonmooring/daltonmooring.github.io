@@ -12,7 +12,6 @@ function convertToHex(rgb){ // convert RGB triple to hex string
 }
 
 function trim(s){ // to remove "#" from hex string for conversion
-  console.log(s);
   return (s.charAt(0) == '#') ? s.substring(1, 7) : s
 }
 

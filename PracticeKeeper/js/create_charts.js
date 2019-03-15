@@ -1,9 +1,10 @@
 //global variables
 var parameters = location.search.substring(1).split("&");
+var data_choices = parameters[0].split("=")[1]
 var grad_start = parameters[1].split("=")[1];
 var grad_end = parameters[2].split("=")[1];
 var cal_color = parameters[2].split("=")[1]
-var chart_data  = load_data();
+var chart_data  = load_data(data_choices);
 var canvases = [];
 // data needed to make bar graph
 var bar_graph_data;
