@@ -125,6 +125,16 @@
     </div>
 
     <script>
+    var $slider = $("#slider");
+      if ($slider.length > 0) {
+        $slider.slider({
+          min: 0,
+          max: 5,
+          value: 3,
+          orientation: "horizontal",
+          range: "min"
+        });
+      }
       document.getElementById("nextButton").onclick = function () {
         var meta_data=generateLink();
         location.href = "./chart.html"+meta_data;

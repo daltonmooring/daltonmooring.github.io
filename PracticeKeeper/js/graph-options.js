@@ -11,16 +11,7 @@ function generateLink(){
   return final;
 }
 
-var $slider = $("#slider");
-  if ($slider.length > 0) {
-    $slider.slider({
-      min: 0,
-      max: 5,
-      value: 3,
-      orientation: "horizontal",
-      range: "min"
-    });
-  }
+
   var num_circles = 20;
   function default_gradient(){ //creating defeault gradent
     var color1 = $("#color1").val();
