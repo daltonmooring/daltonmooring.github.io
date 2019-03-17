@@ -76,10 +76,18 @@ function random_cal_set_of_size(n){
 }
 
 // bar graph data
-function make_bar_data(cal){ // makes a coorisponding y value for the data labels
+function make_bar_data_min(cal){ // makes a coorisponding y value for the data labels
   var data_set = [];
   for(var i =0;i<cal.day_array.length;i++){
     data_set.push(cal.day_array[i].total_practice_time_min);
+  }
+  return data_set;
+}
+function make_bar_data_hour(cal,precision){ // makes a coorisponding y value for the data labels
+  var data_set = [];
+  for(var i =0;i<cal.day_array.length;i++){
+    var time = round(cal.day_array[i].total_practice_time_min/60,precision);
+    data_set.push(time.toPrecision(4));
   }
   return data_set;
 }
@@ -89,7 +97,6 @@ function make_data_labels(cal){ //makes labels for an inputted calendar
     data_set.push(cal.day_array[i].short_print());
   }
   return data_set;
-
 }
 
 // pie chart data
@@ -109,8 +116,7 @@ function pie_chart_data_of(cal){ //returns number of solo, wind ensemble, orches
   }
   return data_set;
 }
-function pie_chart_data_by_time_of(cal){ //returns TIME of solo, wind ensemble, orchestra, private lesson, sectionals for a given calender
-
+function pie_chart_data_by_time_of_min(cal){ //returns TIME of solo, wind ensemble, orchestra, private lesson, sectionals for a given calender in minutes
   var data_set = [];
   for(var i=0;i<practice_types.length;i++){
     data_set.push(0);
@@ -123,6 +129,28 @@ function pie_chart_data_by_time_of(cal){ //returns TIME of solo, wind ensemble, 
         }
       }
     }
+  }
+  return data_set;
+}
+
+function pie_chart_data_by_time_of_hour(cal){ //returns TIME of solo, wind ensemble, orchestra, private lesson, sectionals for a given calender in hours
+  var data_set = [];
+  for(var i=0;i<practice_types.length;i++){
+    data_set.push(0);
+  }
+  for(var i =0;i<cal.day_array.length;i++){
+    for (var j =0;j<cal.day_array[i].sessions.length;j++){
+      for(var k=0;k<practice_types.length;k++){
+        if (cal.day_array[i].sessions[j].practice_type===practice_types[k]){
+          var time_in_hours= cal.day_array[i].sessions[j].length_min/60;
+          data_set[k]+=time_in_hours;
+        }
+      }
+    }
+  }
+  for(var i=0;i<data_set.length;i++){
+    var new_data = round(data_set[i],0);
+    data_set[i] =new_data;
   }
   return data_set;
 }
@@ -143,13 +171,28 @@ class calendar{
     }
     return text;
   }
-  print_bar_title(){
+  print_bar_title_minutes(){
     var text="";
     text+="Practice time per day in minutes from ";
     text+=this.firstDay.short_print_w_year()+" to ";
     text+=this.lastDay.short_print_w_year();
     return text;
   }
+  print_bar_title_hours(){
+    var text="";
+    text+="Practice time per day in hours from ";
+    text+=this.firstDay.short_print_w_year()+" to ";
+    text+=this.lastDay.short_print_w_year();
+    return text;
+  }
+  print_generic_title(){
+    var text="";
+    text+="Practice Time In Hours From ";
+    text+=this.firstDay.short_print_w_year()+" to ";
+    text+=this.lastDay.short_print_w_year();
+    return text;
+  }
+
   maxTimeInDay(){
     var max = 0;
     for(var i=0;i<this.day_array.length;i++){
@@ -160,7 +203,6 @@ class calendar{
     return max;
   }
 }
-
 class day_class{
   constructor(day, sessions){ // should take in new date object of midnight of the day and array of practice session
     this.currentDay = day;
@@ -202,7 +244,6 @@ class day_class{
     text+="-----------------------------------------------------------\n";
 
     return text;
-
   }
   short_print(){
     var text="";

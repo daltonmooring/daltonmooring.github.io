@@ -100,3 +100,7 @@ function load_data(input_choices){
   var final = new calendar(result);
   return final;
 }
+
+function round(value, decimals) {
+  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+}

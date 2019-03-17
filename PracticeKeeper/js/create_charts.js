@@ -4,6 +4,7 @@ var data_choices = parameters[0].split("=")[1]
 var grad_start = parameters[1].split("=")[1];
 var grad_end = parameters[2].split("=")[1];
 var cal_color = parameters[2].split("=")[1]
+var precision = parameters[3].split("=")[1]
 var chart_data  = load_data(data_choices);
 var canvases = [];
 // data needed to make bar graph
@@ -56,7 +57,6 @@ var cond_array
 // gradients and colors needed
 var pie_doughnut_gradient;
 
-
 function get_page_data(){ // retrieve information about updated colors
   grad_start = $("#grad_start").val();
   grad_end   = $("#grad_end").val();
@@ -66,9 +66,9 @@ function get_page_data(){ // retrieve information about updated colors
 
 //functions to create charts on page load
 function create_bar_graph(){
-  bar_graph_data     = make_bar_data(chart_data);
+  bar_graph_data  = make_bar_data_hour(chart_data,precision);
   bar_graph_labels   = make_data_labels(chart_data);
-  bar_graph_title    = chart_data.print_bar_title();
+  bar_graph_title    = chart_data.print_bar_title_hours();
   bar_graph_gradient = generateColor(grad_start,grad_end,bar_graph_data.length);
   bar_config         = {
       type: 'bar',
@@ -100,8 +100,9 @@ function create_bar_graph(){
 
 function create_doughnut_graph() {
   get_page_data();
-  doughnut_chart_data  = pie_chart_data_by_time_of(chart_data);
-  doughunt_graph_title = "Practice Time in Minutes";
+  doughnut_chart_data  = pie_chart_data_by_time_of_hour(chart_data);
+  doughnut_chart_data  = pie_chart_data_by_time_of_hour(chart_data);
+  doughnut_graph_title = chart_data.print_generic_title();
   doughnut_colors = generateColor(grad_start,grad_end,doughnut_chart_data.length);
   doughnut_ctx    = document.getElementById("doughnut-graph").getContext('2d');
   doughnut_config = {
@@ -119,7 +120,7 @@ function create_doughnut_graph() {
           maintainAspectRatio: false,
           title:{
             display:true,
-            text: doughunt_graph_title,
+            text: doughnut_graph_title,
             fontColor:"black"
           }
         }
@@ -129,8 +130,8 @@ function create_doughnut_graph() {
       canvases.push(my_doughnut);
   }
 function create_pie_graph(){
-  pie_chart_data  = pie_chart_data_by_time_of(chart_data);
-  pie_graph_title = "Practice Time in Minutes";
+  pie_chart_data  = pie_chart_data_by_time_of_hour(chart_data);
+  pie_graph_title = "Practice Time in Hours";
   pie_colors = generateColor(grad_start,grad_end,pie_chart_data.length);
   pie_ctx    = document.getElementById("pie-graph").getContext('2d');
   pie_config = {

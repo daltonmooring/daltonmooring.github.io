@@ -38,8 +38,6 @@
     <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-pie-alt"></i></span>
     <span style="font-size:50px;color:#C4C4C4"><i class="icon-calendar"></i></span>
 
-
-     <div id="data-options">
       <div class="col-md-6">
         <h4>Which Data Should Be Included?</h4>
         <form role="form">
@@ -91,7 +89,7 @@
       </p>
         </div>
 
-    <div>
+    <div id="options">
       <h3>Choose Your Colors</h3>
       <iframe name="frame" style="display:none;"></iframe>
       <form action="about:blank" method="post" target="frame">
@@ -107,31 +105,19 @@
       </form>
     </div>
 
+
     <div class="gradient">
       <h3>Gradient Sample:</h3>
     </div>
 
-    <!-- <div id="slider"></div> -->
-
-    <script>
-    function generateLink(){
-      var final="?d=";
-      for(var i=1;i!=8;i++){
-        var current= document.getElementById("checkbox"+i).checked;
-        if(current===true) final+="1";
-        if (current===false) final+="0";
-      }
-      final+="&c1="+document.getElementById("color1").value;
-      final+="&c2="+document.getElementById("color2").value;
-      return final;
-    }
-    </script>
-
+    <h3>Percsion of bar graph data </h3>
+    <div id="slider">
+    </div>
+    <!-- percsion slider -->
 
     <button type="button" class="btn btn-primary btn-hg" id="nextButton" onclick="generateLink()">
         Next
     </button>
-
 
     <div id="footer">
       <p>
@@ -140,7 +126,31 @@
       </p>
     </div>
 
+
   <script>
+  function generateLink(){
+    var final="?d=";
+    for(var i=1;i!=8;i++){
+      var current= document.getElementById("checkbox"+i).checked;
+      if(current===true) final+="1";
+      if (current===false) final+="0";
+    }
+    final+="&c1="+document.getElementById("color1").value;
+    final+="&c2="+document.getElementById("color2").value;
+    final+="&p="+ $('#slider').slider("option", "value");
+    return final;
+  }
+  var $slider = $("#slider");
+    if ($slider.length > 0) {
+      $slider.slider({
+        min: 0,
+        max: 5,
+        value: 3,
+        orientation: "horizontal",
+        range: "min"
+      });
+    }
+
     var num_circles = 20;
     function default_gradient(){ //creating defeault gradent
       var color1 = $("#color1").val();
