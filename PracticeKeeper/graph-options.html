@@ -18,8 +18,9 @@
   <script src="lib/flat-ui/scripts/flat-ui.js"></script>
 
   <!-- Custom js,css and font files -->
-  <script src="js/color.js">            </script>
+  <script src="js/color.js">    </script>
   <script src="js/calendar.js"> </script>
+  <script src="js/graph-options.js"> </script>
 
   <link rel="stylesheet" type="text/css" href="css/fontello/css/fontello.css" /> <!--for icons-->
   <link rel="stylesheet" type="text/css" href="css/footer.css" />
@@ -28,17 +29,17 @@
 
 <body>
   <body onload="default_gradient()"> <!-- load first gradient on page-->
-
-
     <div id="header">
       <h1>Graph Options<span><i class="icon-wrench"></i></span></h1>
     </div>
 
-    <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-bar"></i></span>
-    <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-pie-alt"></i></span>
-    <span style="font-size:50px;color:#C4C4C4"><i class="icon-calendar"></i></span>
+    <div id="icons">
+      <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-bar"></i></span>
+      <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-pie-alt"></i></span>
+      <span style="font-size:50px;color:#C4C4C4"><i class="icon-calendar"></i></span>
+    </div>
 
-      <div class="col-md-6">
+    <div class="col-md-6">
         <h4>Which Data Should Be Included?</h4>
         <form role="form">
           <div class="form-group" >
@@ -77,7 +78,7 @@
           </div>
         </form>
       </div>
-    </div>
+
     <div id="explain-text">
       <p> The current site is a work in progress so there are some buttons may not do anything or respond strangely, but the idea of the project is for me to keep track of my practice habits throughout my time at the University of Ottawa studying Tenor Trombone.
         This project was an idea that came to me one day while walking home and wondering why there are no apps/ websites that help you visualize and track your practice habits.
@@ -105,15 +106,12 @@
       </form>
     </div>
 
-
     <div class="gradient">
       <h3>Gradient Sample:</h3>
     </div>
 
-    <h3>Percsion of bar graph data </h3>
-    <div id="slider">
-    </div>
-    <!-- percsion slider -->
+    <h3>Precision of bar graph data </h3>
+    <div id="slider"></div>
 
     <button type="button" class="btn btn-primary btn-hg" id="nextButton" onclick="generateLink()">
         Next
@@ -125,68 +123,6 @@
         <a href="https://daltonmooring.github.io" title="Dalton's Website" target="_blank">here</a>.
       </p>
     </div>
-
-
-  <script>
-  function generateLink(){
-    var final="?d=";
-    for(var i=1;i!=8;i++){
-      var current= document.getElementById("checkbox"+i).checked;
-      if(current===true) final+="1";
-      if (current===false) final+="0";
-    }
-    final+="&c1="+document.getElementById("color1").value;
-    final+="&c2="+document.getElementById("color2").value;
-    final+="&p="+ $('#slider').slider("option", "value");
-    return final;
-  }
-  var $slider = $("#slider");
-    if ($slider.length > 0) {
-      $slider.slider({
-        min: 0,
-        max: 5,
-        value: 3,
-        orientation: "horizontal",
-        range: "min"
-      });
-    }
-
-    var num_circles = 20;
-    function default_gradient(){ //creating defeault gradent
-      var color1 = $("#color1").val();
-      var color2 = $("#color2").val();
-      var color_array=generateColor(color2,color1,num_circles+1);
-      for (var i = 0; i < num_circles; i++) {
-        $('.gradient').append('<div id="circle-' + i + '"class="circle"</div>');
-        document.getElementById("circle-"+i).style.backgroundColor = color_array[i];
-      }
-      $('.gradient').append('<br>');
-    }
-
-    function display_grad(){
-      var color1 = $("#color1").val();
-      var color2 = $("#color2").val();
-      var color_array=generateColor(color2,color1,num_circles+1);
-      for (var i = 0; i < num_circles; i++) {
-        document.getElementById("circle-"+i).style.backgroundColor = color_array[i];
-      }
-    }
-    document.getElementById("nextButton").onclick = function () {
-      var meta_data=generateLink();
-      location.href = "./chart.html"+meta_data;
-    };
-
-    $("#select_all").click(function () {
-        $('input:checkbox').not(this).prop('checked', this.checked);
-    });
-
-    $(document).ready(function () {
-        $(':checkbox').radiocheck();
-    });
-
-
-  </script>
-
 </body>
 
 </html>
