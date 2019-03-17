@@ -40,14 +40,3 @@ var $slider = $("#slider");
       document.getElementById("circle-"+i).style.backgroundColor = color_array[i];
     }
   }
-  document.getElementById("nextButton").onclick = function () {
-    var meta_data=generateLink();
-    location.href = "./chart.html"+meta_data;
-  };
-  $("#select_all").click(function () {
-      $('input:checkbox').not(this).prop('checked', this.checked);
-  });
-
-  $(document).ready(function () {
-      $(':checkbox').radiocheck();
-  });
