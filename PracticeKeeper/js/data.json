@@ -1837,5 +1837,311 @@ var data =
     "end": "18:00",
     "type": "orchestra",
     "performance type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:00",
+    "end": "18:15",
+    "type": "chamber",
+    "performance type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "mar",
+    "year": 2019,
+    "begin": "19:40",
+    "end": "21:10",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:45",
+    "end": "15:45",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "mar",
+    "year": 2019,
+    "begin": "16:55",
+    "end": "17:45",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "mar",
+    "year": 2019,
+    "begin": "18:00",
+    "end": "19:00",
+    "type": "sectional",
+    "performance type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "mar",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "21:45",
+    "type": "orchestra",
+    "performance type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "mar",
+    "year": 2019,
+    "begin": "15:45",
+    "end": "17:10",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:20",
+    "end": "17:55",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 19,
+    "month": "mar",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "21:45",
+    "type": "orchestra",
+    "performance type": "NA"
+  },
+  {
+    "day": 20,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "14:00",
+    "type": "chamber",
+    "performance type": "jazz at carleton"
+  },
+  {
+    "day": 20,
+    "month": "mar",
+    "year": 2019,
+    "begin": "16:50",
+    "end": "18:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 20,
+    "month": "mar",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "21:00",
+    "type": "orchestra",
+    "performance type": "NA"
+  },
+  {
+    "day": 21,
+    "month": "mar",
+    "year": 2019,
+    "begin": "18:40",
+    "end": "19:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 21,
+    "month": "mar",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "21:30",
+    "type": "performance",
+    "performance type": "orchestra concert"
+  },
+  {
+    "day": 22,
+    "month": "mar",
+    "year": 2019,
+    "begin": "12:55",
+    "end": "14:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 22,
+    "month": "mar",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:30",
+    "type": "chamber",
+    "performance type": "NA"
+  },
+  {
+    "day": 22,
+    "month": "mar",
+    "year": 2019,
+    "begin": "16:30",
+    "end": "17:00",
+    "type": "performance",
+    "performance type": "jazz at carleton"
+  },
+  {
+    "day": 23,
+    "month": "mar",
+    "year": 2019,
+    "begin": "20:00",
+    "end": "21:30",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 24,
+    "month": "mar",
+    "year": 2019,
+    "begin": "15:55",
+    "end": "16:45",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 24,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:00",
+    "end": "18:00",
+    "type": "chamber",
+    "performance type": "karl’s rehearsal"
+  },
+  {
+    "day": 25,
+    "month": "mar",
+    "year": 2019,
+    "begin": "16:10",
+    "end": "17:10",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 25,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "performance type": "NA"
+  },
+  {
+    "day": 26,
+    "month": "mar",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "12:45",
+    "type": "chamber",
+    "performance type": "NA"
+  },
+  {
+    "day": 26,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "13:25",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 26,
+    "month": "mar",
+    "year": 2019,
+    "begin": "14:00",
+    "end": "15:00",
+    "type": "lesson",
+    "performance type": "NA"
+  },
+  {
+    "day": 27,
+    "month": "mar",
+    "year": 2019,
+    "begin": "16:30",
+    "end": "17:10",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 27,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "performance type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:00",
+    "end": "17:15",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "mar",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:00",
+    "type": "wind ensemble",
+    "performance type": "NA"
+  },
+  {
+    "day": 28,
+    "month": "mar",
+    "year": 2019,
+    "begin": "19:30",
+    "end": "21:00",
+    "type": "chamber",
+    "performance type": "karl’s group"
+  },
+  {
+    "day": 29,
+    "month": "mar",
+    "year": 2019,
+    "begin": "12:30",
+    "end": "13:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 29,
+    "month": "mar",
+    "year": 2019,
+    "begin": "13:45",
+    "end": "14:20",
+    "type": "performance",
+    "performance type": "stravinsky octet"
+  },
+  {
+    "day": 29,
+    "month": "mar",
+    "year": 2019,
+    "begin": "18:55",
+    "end": "19:15",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 29,
+    "month": "mar",
+    "year": 2019,
+    "begin": "19:30",
+    "end": "21:45",
+    "type": "performance",
+    "performance type": "wind ensemble concert"
   }
 ]
