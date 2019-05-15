@@ -76,13 +76,7 @@ function random_cal_set_of_size(n){
 }
 
 // bar graph data
-function make_bar_data_min(cal){ // makes a coorisponding y value for the data labels
-  var data_set = [];
-  for(var i =0;i<cal.day_array.length;i++){
-    data_set.push(cal.day_array[i].total_practice_time_min);
-  }
-  return data_set;
-}
+
 function make_bar_data_hour(cal,precision){ // makes a coorisponding y value for the data labels
   var data_set = [];
   for(var i =0;i<cal.day_array.length;i++){
@@ -100,39 +94,6 @@ function make_data_labels(cal){ //makes labels for an inputted calendar
 }
 
 // pie chart data
-function pie_chart_data_of(cal){ //returns number of solo, wind ensemble, orchestra, private lesson, sectionals for a given calender
-  var data_set = [];
-  for(var i=0;i<practice_types.length;i++){
-    data_set.push(0);
-  }
-  for(var i =0;i<cal.day_array.length;i++){ //loop through all days in cal
-    for (var j =0;j<cal.day_array[i].sessions.length;j++){ //loop through all practice session in day
-      for(var k=0;k<practice_types.length;k++){ //check each practice type
-        if (cal.day_array[i].sessions[j].practice_type===practice_types[k]){
-          data_set[k]+=1;
-        }
-      }
-    }
-  }
-  return data_set;
-}
-function pie_chart_data_by_time_of_min(cal){ //returns TIME of solo, wind ensemble, orchestra, private lesson, sectionals for a given calender in minutes
-  var data_set = [];
-  for(var i=0;i<practice_types.length;i++){
-    data_set.push(0);
-  }
-  for(var i =0;i<cal.day_array.length;i++){
-    for (var j =0;j<cal.day_array[i].sessions.length;j++){
-      for(var k=0;k<practice_types.length;k++){
-        if (cal.day_array[i].sessions[j].practice_type===practice_types[k]){
-          data_set[k]+=cal.day_array[i].sessions[j].length_min;
-        }
-      }
-    }
-  }
-  return data_set;
-}
-
 function pie_chart_data_by_time_of_hour(cal){ //returns TIME of solo, wind ensemble, orchestra, private lesson, sectionals for a given calender in hours
   var data_set = [];
   for(var i=0;i<practice_types.length;i++){
@@ -192,7 +153,6 @@ class calendar{
     text+=this.lastDay.short_print_w_year();
     return text;
   }
-
   maxTimeInDay(){
     var max = 0;
     for(var i=0;i<this.day_array.length;i++){

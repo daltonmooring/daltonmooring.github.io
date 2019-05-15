@@ -2143,5 +2143,581 @@ var data =
     "end": "21:45",
     "type": "performance",
     "performance type": "wind ensemble concert"
+  },
+  {
+    "day": 30,
+    "month": "mar",
+    "year": 2019,
+    "begin": "19:50",
+    "end": "22:30",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 31,
+    "month": "mar",
+    "year": 2019,
+    "begin": "15:45",
+    "end": "16:45",
+    "type": "chamber",
+    "performance type": "karl’s group"
+  },
+  {
+    "day": 1,
+    "month": "apr",
+    "year": 2019,
+    "begin": "15:00",
+    "end": "15:50",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "apr",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "18:30",
+    "type": "chamber",
+    "performance type": "brass choir"
+  },
+  {
+    "day": 1,
+    "month": "apr",
+    "year": 2019,
+    "begin": "18:45",
+    "end": "19:30",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "apr",
+    "year": 2019,
+    "begin": "14:00",
+    "end": "14:20",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "apr",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:30",
+    "type": "chamber",
+    "performance type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "apr",
+    "year": 2019,
+    "begin": "16:20",
+    "end": "17:30",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "apr",
+    "year": 2019,
+    "begin": "21:00",
+    "end": "21:45",
+    "type": "performance",
+    "performance type": "karl’s group"
+  },
+  {
+    "day": 3,
+    "month": "apr",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "17:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 3,
+    "month": "apr",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "18:30",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "apr",
+    "year": 2019,
+    "begin": "11:00",
+    "end": "12:50",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 4,
+    "month": "apr",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "18:15",
+    "type": "chamber",
+    "performance type": "brass choir"
+  },
+  {
+    "day": 4,
+    "month": "apr",
+    "year": 2019,
+    "begin": "18:35",
+    "end": "19:15",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "apr",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "12:35",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "apr",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "14:00",
+    "type": "lesson",
+    "performance type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "apr",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:45",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 5,
+    "month": "apr",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "18:10",
+    "type": "chamber",
+    "performance type": "stravinsky octet"
+  },
+  {
+    "day": 5,
+    "month": "apr",
+    "year": 2019,
+    "begin": "18:45",
+    "end": "19:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "apr",
+    "year": 2019,
+    "begin": "18:10",
+    "end": "18:40",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "apr",
+    "year": 2019,
+    "begin": "19:30",
+    "end": "20:45",
+    "type": "performance",
+    "performance type": "malcom's recital"
+  },
+  {
+    "day": 8,
+    "month": "apr",
+    "year": 2019,
+    "begin": "16:45",
+    "end": "17:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "apr",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "18:20",
+    "type": "chamber",
+    "performance type": "brass choir"
+  },
+  {
+    "day": 9,
+    "month": "apr",
+    "year": 2019,
+    "begin": "13:35",
+    "end": "14:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 9,
+    "month": "apr",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:15",
+    "type": "performance",
+    "performance type": "brass choir concert"
+  },
+  {
+    "day": 9,
+    "month": "apr",
+    "year": 2019,
+    "begin": "15:25",
+    "end": "15:35",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 10,
+    "month": "apr",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "14:40",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 10,
+    "month": "apr",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "17:15",
+    "type": "lesson",
+    "performance type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "apr",
+    "year": 2019,
+    "begin": "8:30",
+    "end": "9:20",
+    "type": "performance",
+    "performance type": "clara's jazz recital"
+  },
+  {
+    "day": 16,
+    "month": "apr",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "19:20",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 16,
+    "month": "apr",
+    "year": 2019,
+    "begin": "23:00",
+    "end": "23:30",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 17,
+    "month": "apr",
+    "year": 2019,
+    "begin": "16:40",
+    "end": "17:20",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 17,
+    "month": "apr",
+    "year": 2019,
+    "begin": "17:45",
+    "end": "18:45",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 17,
+    "month": "apr",
+    "year": 2019,
+    "begin": "19:05",
+    "end": "19:50",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "apr",
+    "year": 2019,
+    "begin": "10:25",
+    "end": "10:50",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "apr",
+    "year": 2019,
+    "begin": "11:00",
+    "end": "11:35",
+    "type": "lesson",
+    "performance type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "apr",
+    "year": 2019,
+    "begin": "14:00",
+    "end": "14:35",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 18,
+    "month": "apr",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "16:45",
+    "type": "lesson",
+    "performance type": "NA"
+  },
+  {
+    "day": 20,
+    "month": "apr",
+    "year": 2019,
+    "begin": "18:10",
+    "end": "20:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 20,
+    "month": "apr",
+    "year": 2019,
+    "begin": "20:20",
+    "end": "20:46",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 22,
+    "month": "apr",
+    "year": 2019,
+    "begin": "17:05",
+    "end": "18:35",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 23,
+    "month": "apr",
+    "year": 2019,
+    "begin": "15:10",
+    "end": "16:20",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 24,
+    "month": "apr",
+    "year": 2019,
+    "begin": "8:20",
+    "end": "9:25",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 24,
+    "month": "apr",
+    "year": 2019,
+    "begin": "10:20",
+    "end": "10:50",
+    "type": "performance",
+    "performance type": "First Year Jury"
+  },
+  {
+    "day": 25,
+    "month": "apr",
+    "year": 2019,
+    "begin": "20:40",
+    "end": "21:50",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 29,
+    "month": "apr",
+    "year": 2019,
+    "begin": "19:10",
+    "end": "22:10",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 1,
+    "month": "may",
+    "year": 2019,
+    "begin": "19:10",
+    "end": "21:20",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 2,
+    "month": "may",
+    "year": 2019,
+    "begin": "20:15",
+    "end": "21:15",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "may",
+    "year": 2019,
+    "begin": "18:00",
+    "end": "19:05",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "may",
+    "year": 2019,
+    "begin": "21:15",
+    "end": "22:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "may",
+    "year": 2019,
+    "begin": "18:00",
+    "end": "19:05",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 7,
+    "month": "may",
+    "year": 2019,
+    "begin": "21:15",
+    "end": "22:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "may",
+    "year": 2019,
+    "begin": "17:05",
+    "end": "17:35",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "may",
+    "year": 2019,
+    "begin": "18:05",
+    "end": "18:45",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "may",
+    "year": 2019,
+    "begin": "18:55",
+    "end": "20:10",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 8,
+    "month": "may",
+    "year": 2019,
+    "begin": "20:25",
+    "end": "20:45",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 9,
+    "month": "may",
+    "year": 2019,
+    "begin": "20:20",
+    "end": "21:20",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 10,
+    "month": "may",
+    "year": 2019,
+    "begin": "19:35",
+    "end": "21:00",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 11,
+    "month": "may",
+    "year": 2019,
+    "begin": "19:05",
+    "end": "20:20",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 13,
+    "month": "may",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "12:15",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 13,
+    "month": "may",
+    "year": 2019,
+    "begin": "13:05",
+    "end": "14:15",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 13,
+    "month": "may",
+    "year": 2019,
+    "begin": "21:25",
+    "end": "22:25",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 14,
+    "month": "may",
+    "year": 2019,
+    "begin": "17:50",
+    "end": "18:15",
+    "type": "solo",
+    "performance type": "NA"
+  },
+  {
+    "day": 14,
+    "month": "may",
+    "year": 2019,
+    "begin": "19:40",
+    "end": "21:00",
+    "type": "solo",
+    "performance type": "NA"
   }
 ]

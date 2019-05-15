@@ -12,22 +12,22 @@ function load_data(input_choices){
   if(input_choices[0]==="0"){
     skip_list.push("wind ensemble")
   }
-  if(input_choices[1]==="0"){
+   if(input_choices[1]==="0"){
     skip_list.push("orchestra")
   }
-  if(input_choices[2]==="0"){
+   if(input_choices[2]==="0"){
     skip_list.push("solo")
   }
-  if(input_choices[3]==="0"){
+   if(input_choices[3]==="0"){
     skip_list.push("lesson")
   }
-  if(input_choices[4]==="0"){
+   if(input_choices[4]==="0"){
     skip_list.push("performance")
   }
-  if(input_choices[5]==="0"){
+   if(input_choices[5]==="0"){
     skip_list.push("sectional")
   }
-  if(input_choices[6]==="0"){
+   if(input_choices[6]==="0"){
     skip_list.push("chamber")
   }
 
@@ -49,7 +49,6 @@ function load_data(input_choices){
     month               = month_to_num(month);
     for (var j=0;j<skip_list.length;j++){
       if (type===skip_list[j]) {
-        console.log(type);
         skip = true;
         break;
       }
