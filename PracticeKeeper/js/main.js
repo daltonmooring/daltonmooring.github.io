@@ -1,12 +1,12 @@
 function load_data(input_choices){
-  // {
+  // { example data:
   //   "day": 5,
   //   "month": "oct",
   //   "year": 2018,
   //   "begin": "13:00",
   //   "end": "14:00",
   //   "type": "lesson",
-  //   "performance type": "NA"
+  //   "notes": "good lesson, worked on double tonguing"
   // }
   var skip_list = [];
   if(input_choices[0]==="0"){
@@ -30,6 +30,9 @@ function load_data(input_choices){
    if(input_choices[6]==="0"){
     skip_list.push("chamber")
   }
+  if(input_choices[7]==="0"){
+    skip_list.push("other")
+  }
 
 
   var local_data   = data; // declared in data.json
@@ -46,6 +49,7 @@ function load_data(input_choices){
     var hour_end        = parseInt(current_day.end.slice(0,2),10);
     var minutes_end     = parseInt(current_day.end.slice(3,5),10);
     var type            = current_day.type;
+    var notes           =
     month               = month_to_num(month);
     for (var j=0;j<skip_list.length;j++){
       if (type===skip_list[j]) {

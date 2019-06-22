@@ -1,6 +1,6 @@
 function generateLink(){
   var final="?d=";
-  for(var i=1;i!=8;i++){
+  for(var i=1;i!=9;i++){
     var current= document.getElementById("checkbox"+i).checked;
     if(current===true) final+="1";
     if (current===false) final+="0";

@@ -13,6 +13,11 @@ body{
 #slider{
   width:450px
 }
+#icons{
+  text-align: center;
+  font-size:50px;
+  color:#C4C4C4
+}
 
 h1{
   font-size: 9vh;

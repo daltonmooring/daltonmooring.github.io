@@ -1,5 +1,5 @@
-var short_months_lc     = ["jan","feb","mar","apr","may","jun","jul","aug","sept","oct","nov","dec"]
-var short_months_uc     = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"]
+var short_months_lc     = ["jan","feb","mar","apr","may","june","jul","aug","sept","oct","nov","dec"]
+var short_months_uc     = ["Jan","Feb","Mar","Apr","May","June","Jul","Aug","Sept","Oct","Nov","Dec"]
 var practice_types      = ["solo","wind ensemble","orchestra","lesson","sectional","performance","chamber"]
 var long_months         = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 var weekdays            = ["Sunady","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]

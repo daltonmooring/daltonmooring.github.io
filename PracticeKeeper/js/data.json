@@ -1,7 +1,6 @@
 /* data converted from csv to json using https://www.csvjson.com/csv2json */
 
-var data =
-[
+var data =[
   {
     "day": 6,
     "month": "sept",
@@ -9,7 +8,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 10,
@@ -18,7 +17,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -27,7 +26,7 @@ var data =
     "begin": "15:30",
     "end": "16:30",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -36,7 +35,7 @@ var data =
     "begin": "12:00",
     "end": "13:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -45,7 +44,7 @@ var data =
     "begin": "12:00",
     "end": "13:00",
     "type": "sectional",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -54,7 +53,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -63,7 +62,7 @@ var data =
     "begin": "16:00",
     "end": "17:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -72,7 +71,7 @@ var data =
     "begin": "14:00",
     "end": "17:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 17,
@@ -81,7 +80,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -90,7 +89,7 @@ var data =
     "begin": "13:30",
     "end": "15:20",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -99,7 +98,7 @@ var data =
     "begin": "13:15",
     "end": "14:15",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 20,
@@ -108,7 +107,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 21,
@@ -117,7 +116,7 @@ var data =
     "begin": "16:00",
     "end": "17:50",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 24,
@@ -126,7 +125,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 25,
@@ -135,7 +134,7 @@ var data =
     "begin": "13:30",
     "end": "15:20",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 27,
@@ -144,7 +143,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -153,7 +152,7 @@ var data =
     "begin": "13:00",
     "end": "14:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -162,7 +161,7 @@ var data =
     "begin": "16:00",
     "end": "18:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 29,
@@ -171,7 +170,7 @@ var data =
     "begin": "16:00",
     "end": "19:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 30,
@@ -180,7 +179,7 @@ var data =
     "begin": "15:00",
     "end": "17:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -189,7 +188,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -198,7 +197,7 @@ var data =
     "begin": "10:00",
     "end": "12:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -207,7 +206,7 @@ var data =
     "begin": "13:30",
     "end": "15:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 3,
@@ -216,7 +215,7 @@ var data =
     "begin": "18:20",
     "end": "19:20",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -225,7 +224,7 @@ var data =
     "begin": "11:30",
     "end": "14:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -234,7 +233,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -243,7 +242,7 @@ var data =
     "begin": "19:45",
     "end": "20:45",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -252,7 +251,7 @@ var data =
     "begin": "13:00",
     "end": "14:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -261,7 +260,7 @@ var data =
     "begin": "19:30",
     "end": "21:00",
     "type": "performance",
-    "performance type": "orchestra"
+    "notes": "orchestra"
   },
   {
     "day": 10,
@@ -270,7 +269,7 @@ var data =
     "begin": "11:30",
     "end": "14:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -279,7 +278,7 @@ var data =
     "begin": "14:00",
     "end": "16:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -288,7 +287,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -297,7 +296,7 @@ var data =
     "begin": "13:00",
     "end": "14:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -306,7 +305,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -315,7 +314,7 @@ var data =
     "begin": "11:30",
     "end": "12:30",
     "type": "sectional",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -324,7 +323,7 @@ var data =
     "begin": "16:00",
     "end": "18:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 17,
@@ -333,7 +332,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -342,7 +341,7 @@ var data =
     "begin": "19:30",
     "end": "21:00",
     "type": "performance",
-    "performance type": "wind ensemble"
+    "notes": "wind ensemble"
   },
   {
     "day": 29,
@@ -351,7 +350,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 31,
@@ -360,7 +359,7 @@ var data =
     "begin": "16:00",
     "end": "17:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -369,7 +368,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -378,7 +377,7 @@ var data =
     "begin": "11:45",
     "end": "12:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -387,7 +386,7 @@ var data =
     "begin": "13:00",
     "end": "14:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -396,7 +395,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 6,
@@ -405,7 +404,7 @@ var data =
     "begin": "17:20",
     "end": "20:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -414,7 +413,7 @@ var data =
     "begin": "16:30",
     "end": "18:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -423,7 +422,7 @@ var data =
     "begin": "16:30",
     "end": "17:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -432,7 +431,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 9,
@@ -441,7 +440,7 @@ var data =
     "begin": "15:00",
     "end": "15:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 9,
@@ -450,7 +449,7 @@ var data =
     "begin": "16:00",
     "end": "18:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 10,
@@ -459,7 +458,7 @@ var data =
     "begin": "20:00",
     "end": "23:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -468,7 +467,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -477,7 +476,7 @@ var data =
     "begin": "18:30",
     "end": "20:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -486,7 +485,7 @@ var data =
     "begin": "16:45",
     "end": "18:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -495,7 +494,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -504,7 +503,7 @@ var data =
     "begin": "14:00",
     "end": "13:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -513,7 +512,7 @@ var data =
     "begin": "16:00",
     "end": "18:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -522,7 +521,7 @@ var data =
     "begin": "19:00",
     "end": "21:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 17,
@@ -531,7 +530,7 @@ var data =
     "begin": "10:20",
     "end": "12:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -540,7 +539,7 @@ var data =
     "begin": "13:30",
     "end": "15:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -549,7 +548,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 20,
@@ -558,7 +557,7 @@ var data =
     "begin": "13:30",
     "end": "15:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 20,
@@ -567,7 +566,7 @@ var data =
     "begin": "19:00",
     "end": "21:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 21,
@@ -576,7 +575,7 @@ var data =
     "begin": "19:00",
     "end": "22:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 22,
@@ -585,7 +584,7 @@ var data =
     "begin": "19:00",
     "end": "22:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 23,
@@ -594,7 +593,7 @@ var data =
     "begin": "16:00",
     "end": "16:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 23,
@@ -603,7 +602,7 @@ var data =
     "begin": "19:00",
     "end": "20:00",
     "type": "performance",
-    "performance type": "orchestra"
+    "notes": "orchestra"
   },
   {
     "day": 26,
@@ -612,7 +611,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 26,
@@ -621,7 +620,7 @@ var data =
     "begin": "19:30",
     "end": "20:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 27,
@@ -630,7 +629,7 @@ var data =
     "begin": "12:00",
     "end": "12:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 27,
@@ -639,7 +638,7 @@ var data =
     "begin": "13:00",
     "end": "15:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -648,7 +647,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 29,
@@ -657,7 +656,7 @@ var data =
     "begin": "19:30",
     "end": "21:30",
     "type": "performance",
-    "performance type": "wind ensemble"
+    "notes": "wind ensemble"
   },
   {
     "day": 1,
@@ -666,7 +665,7 @@ var data =
     "begin": "20:10",
     "end": "22:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -675,7 +674,7 @@ var data =
     "begin": "19:10",
     "end": "20:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -684,7 +683,7 @@ var data =
     "begin": "13:00",
     "end": "14:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -693,7 +692,7 @@ var data =
     "begin": "17:00",
     "end": "18:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 6,
@@ -702,7 +701,7 @@ var data =
     "begin": "18:50",
     "end": "19:05",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 6,
@@ -711,7 +710,7 @@ var data =
     "begin": "20:10",
     "end": "22:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -720,7 +719,7 @@ var data =
     "begin": "19:20",
     "end": "22:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -729,7 +728,7 @@ var data =
     "begin": "13:00",
     "end": "14:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -738,7 +737,7 @@ var data =
     "begin": "18:00",
     "end": "20:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -747,7 +746,7 @@ var data =
     "begin": "18:00",
     "end": "19:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -756,7 +755,7 @@ var data =
     "begin": "19:00",
     "end": "20:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 21,
@@ -765,7 +764,7 @@ var data =
     "begin": "14:20",
     "end": "15:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 25,
@@ -774,7 +773,7 @@ var data =
     "begin": "14:00",
     "end": "15:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 6,
@@ -783,7 +782,7 @@ var data =
     "begin": "18:15",
     "end": "19:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -792,7 +791,7 @@ var data =
     "begin": "14:45",
     "end": "15:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -801,7 +800,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -810,7 +809,7 @@ var data =
     "begin": "11:15",
     "end": "11:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -819,7 +818,7 @@ var data =
     "begin": "12:00",
     "end": "13:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -828,7 +827,7 @@ var data =
     "begin": "13:30",
     "end": "15:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 9,
@@ -837,7 +836,7 @@ var data =
     "begin": "16:15",
     "end": "18:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 10,
@@ -845,8 +844,8 @@ var data =
     "year": 2019,
     "begin": "17:30",
     "end": "19:30",
-    "type": "wind",
-    "performance type": "NA"
+    "type": "wind ensemble",
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -855,7 +854,7 @@ var data =
     "begin": "14:40",
     "end": "15:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -864,7 +863,7 @@ var data =
     "begin": "16:00",
     "end": "18:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -873,7 +872,7 @@ var data =
     "begin": "17:50",
     "end": "18:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -882,7 +881,7 @@ var data =
     "begin": "17:30",
     "end": "19:50",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -891,7 +890,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -900,7 +899,7 @@ var data =
     "begin": "11:00",
     "end": "11:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -909,7 +908,7 @@ var data =
     "begin": "11:30",
     "end": "13:00",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -918,7 +917,7 @@ var data =
     "begin": "13:00",
     "end": "13:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 17,
@@ -927,7 +926,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 17,
@@ -936,7 +935,7 @@ var data =
     "begin": "20:00",
     "end": "20:40",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -945,7 +944,7 @@ var data =
     "begin": "13:20",
     "end": "14:10",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -954,7 +953,7 @@ var data =
     "begin": "23:15",
     "end": "23:55",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -963,7 +962,7 @@ var data =
     "begin": "13:00",
     "end": "16:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -972,7 +971,7 @@ var data =
     "begin": "17:30",
     "end": "19:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 20,
@@ -981,7 +980,7 @@ var data =
     "begin": "13:00",
     "end": "16:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 21,
@@ -990,7 +989,7 @@ var data =
     "begin": "14:20",
     "end": "15:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 21,
@@ -999,7 +998,7 @@ var data =
     "begin": "19:00",
     "end": "22:00",
     "type": "performance",
-    "performance type": "orchestra"
+    "notes": "orchestra"
   },
   {
     "day": 22,
@@ -1008,7 +1007,7 @@ var data =
     "begin": "11:30",
     "end": "13:00",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 22,
@@ -1017,7 +1016,7 @@ var data =
     "begin": "14:00",
     "end": "15:10",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 22,
@@ -1026,7 +1025,7 @@ var data =
     "begin": "20:10",
     "end": "21:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 24,
@@ -1035,7 +1034,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 26,
@@ -1044,7 +1043,7 @@ var data =
     "begin": "22:20",
     "end": "23:40",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -1053,7 +1052,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 29,
@@ -1062,7 +1061,7 @@ var data =
     "begin": "11:30",
     "end": "13:00",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 29,
@@ -1071,7 +1070,7 @@ var data =
     "begin": "13:05",
     "end": "14:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 30,
@@ -1080,7 +1079,7 @@ var data =
     "begin": "18:00",
     "end": "19:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 31,
@@ -1089,7 +1088,7 @@ var data =
     "begin": "11:40",
     "end": "14:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 31,
@@ -1098,7 +1097,7 @@ var data =
     "begin": "16:00",
     "end": "16:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 31,
@@ -1107,7 +1106,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -1116,7 +1115,7 @@ var data =
     "begin": "18:50",
     "end": "20:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -1125,7 +1124,7 @@ var data =
     "begin": "14:00",
     "end": "15:10",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -1134,7 +1133,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -1143,7 +1142,7 @@ var data =
     "begin": "10:45",
     "end": "11:25",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -1152,7 +1151,7 @@ var data =
     "begin": "11:30",
     "end": "13:00",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -1161,7 +1160,7 @@ var data =
     "begin": "13:05",
     "end": "14:05",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 6,
@@ -1170,7 +1169,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -1179,7 +1178,7 @@ var data =
     "begin": "19:30",
     "end": "22:00",
     "type": "performance",
-    "performance type": "wind ensemble"
+    "notes": "wind ensemble"
   },
   {
     "day": 8,
@@ -1188,7 +1187,7 @@ var data =
     "begin": "15:40",
     "end": "17:35",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 9,
@@ -1197,7 +1196,7 @@ var data =
     "begin": "16:20",
     "end": "17:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 10,
@@ -1206,7 +1205,7 @@ var data =
     "begin": "0:50",
     "end": "1:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -1215,7 +1214,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -1224,7 +1223,7 @@ var data =
     "begin": "10:35",
     "end": "11:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -1233,7 +1232,7 @@ var data =
     "begin": "11:30",
     "end": "13:00",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -1242,7 +1241,7 @@ var data =
     "begin": "13:20",
     "end": "14:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -1251,7 +1250,7 @@ var data =
     "begin": "14:00",
     "end": "15:05",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -1260,7 +1259,7 @@ var data =
     "begin": "16:30",
     "end": "17:05",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -1269,7 +1268,7 @@ var data =
     "begin": "11:30",
     "end": "12:45",
     "type": "sectional",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -1278,7 +1277,7 @@ var data =
     "begin": "13:00",
     "end": "14:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -1287,7 +1286,7 @@ var data =
     "begin": "12:35",
     "end": "13:05",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -1296,7 +1295,7 @@ var data =
     "begin": "16:20",
     "end": "17:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 17,
@@ -1305,7 +1304,7 @@ var data =
     "begin": "18:25",
     "end": "20:40",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -1314,7 +1313,7 @@ var data =
     "begin": "16:50",
     "end": "18:25",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -1323,7 +1322,7 @@ var data =
     "begin": "12:50",
     "end": "13:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -1332,7 +1331,7 @@ var data =
     "begin": "14:20",
     "end": "15:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -1341,7 +1340,7 @@ var data =
     "begin": "17:15",
     "end": "17:40",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -1350,7 +1349,7 @@ var data =
     "begin": "21:00",
     "end": "22:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 25,
@@ -1359,7 +1358,7 @@ var data =
     "begin": "14:35",
     "end": "15:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 25,
@@ -1368,7 +1367,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 26,
@@ -1377,7 +1376,7 @@ var data =
     "begin": "8:30",
     "end": "9:30",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "brass quintet"
   },
   {
     "day": 26,
@@ -1386,7 +1385,7 @@ var data =
     "begin": "9:45",
     "end": "11:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 26,
@@ -1395,7 +1394,7 @@ var data =
     "begin": "11:30",
     "end": "13:00",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 26,
@@ -1404,7 +1403,7 @@ var data =
     "begin": "14:00",
     "end": "16:30",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 27,
@@ -1413,7 +1412,7 @@ var data =
     "begin": "15:50",
     "end": "16:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -1422,7 +1421,7 @@ var data =
     "begin": "11:45",
     "end": "13:35",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -1431,7 +1430,7 @@ var data =
     "begin": "16:20",
     "end": "17:25",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -1440,7 +1439,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -1449,7 +1448,7 @@ var data =
     "begin": "11:45",
     "end": "11:58",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -1458,7 +1457,7 @@ var data =
     "begin": "12:00",
     "end": "13:00",
     "type": "sectional",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -1467,7 +1466,7 @@ var data =
     "begin": "13:00",
     "end": "13:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -1476,7 +1475,7 @@ var data =
     "begin": "13:45",
     "end": "14:15",
     "type": "sectional",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -1485,7 +1484,7 @@ var data =
     "begin": "14:15",
     "end": "15:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -1494,7 +1493,7 @@ var data =
     "begin": "16:00",
     "end": "17:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -1503,7 +1502,7 @@ var data =
     "begin": "12:40",
     "end": "13:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -1512,7 +1511,7 @@ var data =
     "begin": "14:00",
     "end": "14:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -1521,7 +1520,7 @@ var data =
     "begin": "16:10",
     "end": "17:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -1530,7 +1529,7 @@ var data =
     "begin": "17:20",
     "end": "18:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -1539,7 +1538,7 @@ var data =
     "begin": "9:00",
     "end": "10:00",
     "type": "performance",
-    "performance type": "chamber masterclass"
+    "notes": "chamber masterclass"
   },
   {
     "day": 4,
@@ -1548,7 +1547,7 @@ var data =
     "begin": "10:30",
     "end": "12:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -1557,7 +1556,7 @@ var data =
     "begin": "13:00",
     "end": "14:15",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -1566,7 +1565,7 @@ var data =
     "begin": "14:20",
     "end": "15:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -1575,7 +1574,7 @@ var data =
     "begin": "17:30",
     "end": "19:15",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -1584,7 +1583,7 @@ var data =
     "begin": "10:55",
     "end": "11:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -1593,7 +1592,7 @@ var data =
     "begin": "12:00",
     "end": "12:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -1602,7 +1601,7 @@ var data =
     "begin": "13:30",
     "end": "15:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 6,
@@ -1611,7 +1610,7 @@ var data =
     "begin": "13:25",
     "end": "14:25",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 6,
@@ -1620,7 +1619,7 @@ var data =
     "begin": "17:15",
     "end": "18:25",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -1629,7 +1628,7 @@ var data =
     "begin": "11:35",
     "end": "11:55",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -1638,7 +1637,7 @@ var data =
     "begin": "12:00",
     "end": "13:00",
     "type": "sectional",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -1647,7 +1646,7 @@ var data =
     "begin": "13:00",
     "end": "13:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -1656,7 +1655,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -1665,7 +1664,7 @@ var data =
     "begin": "10:45",
     "end": "12:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -1674,7 +1673,7 @@ var data =
     "begin": "14:30",
     "end": "15:30",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -1683,7 +1682,7 @@ var data =
     "begin": "16:00",
     "end": "17:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -1692,7 +1691,7 @@ var data =
     "begin": "18:15",
     "end": "20:00",
     "type": "performance",
-    "performance type": "trombone masterclass"
+    "notes": "trombone masterclass"
   },
   {
     "day": 11,
@@ -1701,7 +1700,7 @@ var data =
     "begin": "15:15",
     "end": "15:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -1710,7 +1709,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -1719,7 +1718,7 @@ var data =
     "begin": "19:50",
     "end": "20:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -1728,7 +1727,7 @@ var data =
     "begin": "11:00",
     "end": "11:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -1737,7 +1736,7 @@ var data =
     "begin": "11:30",
     "end": "13:00",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -1746,7 +1745,7 @@ var data =
     "begin": "13:30",
     "end": "15:30",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 12,
@@ -1755,7 +1754,7 @@ var data =
     "begin": "15:30",
     "end": "16:35",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -1764,7 +1763,7 @@ var data =
     "begin": "13:05",
     "end": "14:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -1773,7 +1772,7 @@ var data =
     "begin": "16:00",
     "end": "17:25",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -1782,7 +1781,7 @@ var data =
     "begin": "11:30",
     "end": "12:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -1791,7 +1790,7 @@ var data =
     "begin": "16:00",
     "end": "17:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -1800,7 +1799,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -1809,7 +1808,7 @@ var data =
     "begin": "12:00",
     "end": "12:40",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -1818,7 +1817,7 @@ var data =
     "begin": "13:00",
     "end": "14:10",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -1827,7 +1826,7 @@ var data =
     "begin": "14:30",
     "end": "15:30",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 15,
@@ -1836,7 +1835,7 @@ var data =
     "begin": "16:00",
     "end": "18:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -1845,7 +1844,7 @@ var data =
     "begin": "17:00",
     "end": "18:15",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -1854,7 +1853,7 @@ var data =
     "begin": "19:40",
     "end": "21:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -1863,7 +1862,7 @@ var data =
     "begin": "13:45",
     "end": "15:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -1872,7 +1871,7 @@ var data =
     "begin": "16:55",
     "end": "17:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -1881,7 +1880,7 @@ var data =
     "begin": "18:00",
     "end": "19:00",
     "type": "sectional",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -1890,7 +1889,7 @@ var data =
     "begin": "19:00",
     "end": "21:45",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -1899,7 +1898,7 @@ var data =
     "begin": "15:45",
     "end": "17:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -1908,7 +1907,7 @@ var data =
     "begin": "17:20",
     "end": "17:55",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 19,
@@ -1917,7 +1916,7 @@ var data =
     "begin": "19:00",
     "end": "21:45",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 20,
@@ -1926,7 +1925,7 @@ var data =
     "begin": "13:00",
     "end": "14:00",
     "type": "chamber",
-    "performance type": "jazz at carleton"
+    "notes": "jazz at carleton"
   },
   {
     "day": 20,
@@ -1935,7 +1934,7 @@ var data =
     "begin": "16:50",
     "end": "18:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 20,
@@ -1944,7 +1943,7 @@ var data =
     "begin": "19:00",
     "end": "21:00",
     "type": "orchestra",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 21,
@@ -1953,7 +1952,7 @@ var data =
     "begin": "18:40",
     "end": "19:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 21,
@@ -1962,7 +1961,7 @@ var data =
     "begin": "19:00",
     "end": "21:30",
     "type": "performance",
-    "performance type": "orchestra concert"
+    "notes": "orchestra concert"
   },
   {
     "day": 22,
@@ -1971,7 +1970,7 @@ var data =
     "begin": "12:55",
     "end": "14:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 22,
@@ -1980,7 +1979,7 @@ var data =
     "begin": "14:30",
     "end": "15:30",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 22,
@@ -1989,7 +1988,7 @@ var data =
     "begin": "16:30",
     "end": "17:00",
     "type": "performance",
-    "performance type": "jazz at carleton"
+    "notes": "jazz at carleton"
   },
   {
     "day": 23,
@@ -1998,7 +1997,7 @@ var data =
     "begin": "20:00",
     "end": "21:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 24,
@@ -2007,7 +2006,7 @@ var data =
     "begin": "15:55",
     "end": "16:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 24,
@@ -2016,7 +2015,7 @@ var data =
     "begin": "17:00",
     "end": "18:00",
     "type": "chamber",
-    "performance type": "karl’s rehearsal"
+    "notes": "karl’s rehearsal"
   },
   {
     "day": 25,
@@ -2025,7 +2024,7 @@ var data =
     "begin": "16:10",
     "end": "17:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 25,
@@ -2034,7 +2033,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 26,
@@ -2043,7 +2042,7 @@ var data =
     "begin": "11:30",
     "end": "12:45",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 26,
@@ -2052,7 +2051,7 @@ var data =
     "begin": "13:00",
     "end": "13:25",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 26,
@@ -2061,7 +2060,7 @@ var data =
     "begin": "14:00",
     "end": "15:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 27,
@@ -2070,7 +2069,7 @@ var data =
     "begin": "16:30",
     "end": "17:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 27,
@@ -2079,7 +2078,7 @@ var data =
     "begin": "17:30",
     "end": "19:30",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -2088,7 +2087,7 @@ var data =
     "begin": "17:00",
     "end": "17:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -2097,7 +2096,7 @@ var data =
     "begin": "17:30",
     "end": "19:00",
     "type": "wind ensemble",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 28,
@@ -2106,7 +2105,7 @@ var data =
     "begin": "19:30",
     "end": "21:00",
     "type": "chamber",
-    "performance type": "karl’s group"
+    "notes": "karl’s group"
   },
   {
     "day": 29,
@@ -2115,7 +2114,7 @@ var data =
     "begin": "12:30",
     "end": "13:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 29,
@@ -2124,7 +2123,7 @@ var data =
     "begin": "13:45",
     "end": "14:20",
     "type": "performance",
-    "performance type": "stravinsky octet"
+    "notes": "stravinsky octet"
   },
   {
     "day": 29,
@@ -2133,7 +2132,7 @@ var data =
     "begin": "18:55",
     "end": "19:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 29,
@@ -2142,7 +2141,7 @@ var data =
     "begin": "19:30",
     "end": "21:45",
     "type": "performance",
-    "performance type": "wind ensemble concert"
+    "notes": "wind ensemble concert"
   },
   {
     "day": 30,
@@ -2151,7 +2150,7 @@ var data =
     "begin": "19:50",
     "end": "22:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 31,
@@ -2160,7 +2159,7 @@ var data =
     "begin": "15:45",
     "end": "16:45",
     "type": "chamber",
-    "performance type": "karl’s group"
+    "notes": "karl’s group"
   },
   {
     "day": 1,
@@ -2169,7 +2168,7 @@ var data =
     "begin": "15:00",
     "end": "15:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -2178,7 +2177,7 @@ var data =
     "begin": "17:30",
     "end": "18:30",
     "type": "chamber",
-    "performance type": "brass choir"
+    "notes": "brass choir"
   },
   {
     "day": 1,
@@ -2187,7 +2186,7 @@ var data =
     "begin": "18:45",
     "end": "19:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -2196,7 +2195,7 @@ var data =
     "begin": "14:00",
     "end": "14:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -2205,7 +2204,7 @@ var data =
     "begin": "14:30",
     "end": "15:30",
     "type": "chamber",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -2214,7 +2213,7 @@ var data =
     "begin": "16:20",
     "end": "17:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -2223,7 +2222,7 @@ var data =
     "begin": "21:00",
     "end": "21:45",
     "type": "performance",
-    "performance type": "karl’s group"
+    "notes": "karl’s group"
   },
   {
     "day": 3,
@@ -2232,7 +2231,7 @@ var data =
     "begin": "16:00",
     "end": "17:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 3,
@@ -2241,7 +2240,7 @@ var data =
     "begin": "17:30",
     "end": "18:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -2250,7 +2249,7 @@ var data =
     "begin": "11:00",
     "end": "12:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 4,
@@ -2259,7 +2258,7 @@ var data =
     "begin": "17:30",
     "end": "18:15",
     "type": "chamber",
-    "performance type": "brass choir"
+    "notes": "brass choir"
   },
   {
     "day": 4,
@@ -2268,7 +2267,7 @@ var data =
     "begin": "18:35",
     "end": "19:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -2277,7 +2276,7 @@ var data =
     "begin": "12:00",
     "end": "12:35",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -2286,7 +2285,7 @@ var data =
     "begin": "13:00",
     "end": "14:00",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -2295,7 +2294,7 @@ var data =
     "begin": "14:30",
     "end": "15:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 5,
@@ -2304,7 +2303,7 @@ var data =
     "begin": "17:30",
     "end": "18:10",
     "type": "chamber",
-    "performance type": "stravinsky octet"
+    "notes": "stravinsky octet"
   },
   {
     "day": 5,
@@ -2313,7 +2312,7 @@ var data =
     "begin": "18:45",
     "end": "19:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -2322,7 +2321,7 @@ var data =
     "begin": "18:10",
     "end": "18:40",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -2331,7 +2330,7 @@ var data =
     "begin": "19:30",
     "end": "20:45",
     "type": "performance",
-    "performance type": "malcom's recital"
+    "notes": "malcom's recital"
   },
   {
     "day": 8,
@@ -2340,7 +2339,7 @@ var data =
     "begin": "16:45",
     "end": "17:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -2349,7 +2348,7 @@ var data =
     "begin": "17:30",
     "end": "18:20",
     "type": "chamber",
-    "performance type": "brass choir"
+    "notes": "brass choir"
   },
   {
     "day": 9,
@@ -2358,7 +2357,7 @@ var data =
     "begin": "13:35",
     "end": "14:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 9,
@@ -2367,7 +2366,7 @@ var data =
     "begin": "14:30",
     "end": "15:15",
     "type": "performance",
-    "performance type": "brass choir concert"
+    "notes": "brass choir concert"
   },
   {
     "day": 9,
@@ -2376,7 +2375,7 @@ var data =
     "begin": "15:25",
     "end": "15:35",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 10,
@@ -2385,7 +2384,7 @@ var data =
     "begin": "13:00",
     "end": "14:40",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 10,
@@ -2394,7 +2393,7 @@ var data =
     "begin": "16:00",
     "end": "17:15",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -2403,7 +2402,7 @@ var data =
     "begin": "8:30",
     "end": "9:20",
     "type": "performance",
-    "performance type": "clara's jazz recital"
+    "notes": "clara's jazz recital"
   },
   {
     "day": 16,
@@ -2412,7 +2411,7 @@ var data =
     "begin": "19:00",
     "end": "19:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 16,
@@ -2421,7 +2420,7 @@ var data =
     "begin": "23:00",
     "end": "23:30",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 17,
@@ -2430,7 +2429,7 @@ var data =
     "begin": "16:40",
     "end": "17:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 17,
@@ -2439,7 +2438,7 @@ var data =
     "begin": "17:45",
     "end": "18:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 17,
@@ -2448,7 +2447,7 @@ var data =
     "begin": "19:05",
     "end": "19:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -2457,7 +2456,7 @@ var data =
     "begin": "10:25",
     "end": "10:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -2466,7 +2465,7 @@ var data =
     "begin": "11:00",
     "end": "11:35",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -2475,7 +2474,7 @@ var data =
     "begin": "14:00",
     "end": "14:35",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 18,
@@ -2484,7 +2483,7 @@ var data =
     "begin": "16:00",
     "end": "16:45",
     "type": "lesson",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 20,
@@ -2493,7 +2492,7 @@ var data =
     "begin": "18:10",
     "end": "20:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 20,
@@ -2502,7 +2501,7 @@ var data =
     "begin": "20:20",
     "end": "20:46",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 22,
@@ -2511,7 +2510,7 @@ var data =
     "begin": "17:05",
     "end": "18:35",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 23,
@@ -2520,7 +2519,7 @@ var data =
     "begin": "15:10",
     "end": "16:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 24,
@@ -2529,7 +2528,7 @@ var data =
     "begin": "8:20",
     "end": "9:25",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 24,
@@ -2538,7 +2537,7 @@ var data =
     "begin": "10:20",
     "end": "10:50",
     "type": "performance",
-    "performance type": "First Year Jury"
+    "notes": "First Year Jury"
   },
   {
     "day": 25,
@@ -2547,7 +2546,7 @@ var data =
     "begin": "20:40",
     "end": "21:50",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 29,
@@ -2556,7 +2555,7 @@ var data =
     "begin": "19:10",
     "end": "22:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 1,
@@ -2565,7 +2564,7 @@ var data =
     "begin": "19:10",
     "end": "21:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 2,
@@ -2574,7 +2573,7 @@ var data =
     "begin": "20:15",
     "end": "21:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -2583,7 +2582,7 @@ var data =
     "begin": "18:00",
     "end": "19:05",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -2592,7 +2591,7 @@ var data =
     "begin": "21:15",
     "end": "22:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -2601,7 +2600,7 @@ var data =
     "begin": "18:00",
     "end": "19:05",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 7,
@@ -2610,7 +2609,7 @@ var data =
     "begin": "21:15",
     "end": "22:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -2619,7 +2618,7 @@ var data =
     "begin": "17:05",
     "end": "17:35",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -2628,7 +2627,7 @@ var data =
     "begin": "18:05",
     "end": "18:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -2637,7 +2636,7 @@ var data =
     "begin": "18:55",
     "end": "20:10",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 8,
@@ -2646,7 +2645,7 @@ var data =
     "begin": "20:25",
     "end": "20:45",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 9,
@@ -2655,7 +2654,7 @@ var data =
     "begin": "20:20",
     "end": "21:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 10,
@@ -2664,7 +2663,7 @@ var data =
     "begin": "19:35",
     "end": "21:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 11,
@@ -2673,7 +2672,7 @@ var data =
     "begin": "19:05",
     "end": "20:20",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -2682,7 +2681,7 @@ var data =
     "begin": "12:00",
     "end": "12:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -2691,7 +2690,7 @@ var data =
     "begin": "13:05",
     "end": "14:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 13,
@@ -2700,7 +2699,7 @@ var data =
     "begin": "21:25",
     "end": "22:25",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -2709,7 +2708,7 @@ var data =
     "begin": "17:50",
     "end": "18:15",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
   },
   {
     "day": 14,
@@ -2718,6 +2717,402 @@ var data =
     "begin": "19:40",
     "end": "21:00",
     "type": "solo",
-    "performance type": "NA"
+    "notes": "NA"
+  },
+  {
+    "day": 15,
+    "month": "may",
+    "year": 2019,
+    "begin": "17:45",
+    "end": "18:50",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 15,
+    "month": "may",
+    "year": 2019,
+    "begin": "21:25",
+    "end": "22:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 16,
+    "month": "may",
+    "year": 2019,
+    "begin": "17:05",
+    "end": "18:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 16,
+    "month": "may",
+    "year": 2019,
+    "begin": "20:25",
+    "end": "21:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 17,
+    "month": "may",
+    "year": 2019,
+    "begin": "17:45",
+    "end": "18:50",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 17,
+    "month": "may",
+    "year": 2019,
+    "begin": "21:25",
+    "end": "22:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 20,
+    "month": "may",
+    "year": 2019,
+    "begin": "17:05",
+    "end": "18:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 20,
+    "month": "may",
+    "year": 2019,
+    "begin": "20:25",
+    "end": "21:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 21,
+    "month": "may",
+    "year": 2019,
+    "begin": "18:00",
+    "end": "19:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 21,
+    "month": "may",
+    "year": 2019,
+    "begin": "20:05",
+    "end": "21:10",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 22,
+    "month": "may",
+    "year": 2019,
+    "begin": "18:30",
+    "end": "20:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 23,
+    "month": "may",
+    "year": 2019,
+    "begin": "17:05",
+    "end": "19:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 24,
+    "month": "may",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "17:10",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 24,
+    "month": "may",
+    "year": 2019,
+    "begin": "19:30",
+    "end": "20:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 26,
+    "month": "may",
+    "year": 2019,
+    "begin": "20:35",
+    "end": "22:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 28,
+    "month": "may",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "18:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 28,
+    "month": "may",
+    "year": 2019,
+    "begin": "20:40",
+    "end": "22:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 29,
+    "month": "may",
+    "year": 2019,
+    "begin": "18:25",
+    "end": "20:25",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 30,
+    "month": "may",
+    "year": 2019,
+    "begin": "17:00",
+    "end": "19:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 30,
+    "month": "may",
+    "year": 2019,
+    "begin": "21:00",
+    "end": "22:05",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 31,
+    "month": "may",
+    "year": 2019,
+    "begin": "18:30",
+    "end": "20:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 1,
+    "month": "june",
+    "year": 2019,
+    "begin": "19:25",
+    "end": "22:55",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 2,
+    "month": "june",
+    "year": 2019,
+    "begin": "18:10",
+    "end": "18:55",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 3,
+    "month": "june",
+    "year": 2019,
+    "begin": "15:15",
+    "end": "16:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 3,
+    "month": "june",
+    "year": 2019,
+    "begin": "17:10",
+    "end": "18:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 3,
+    "month": "june",
+    "year": 2019,
+    "begin": "19:05",
+    "end": "19:20",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 3,
+    "month": "june",
+    "year": 2019,
+    "begin": "20:35",
+    "end": "21:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 4,
+    "month": "june",
+    "year": 2019,
+    "begin": "14:15",
+    "end": "16:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 5,
+    "month": "june",
+    "year": 2019,
+    "begin": "15:30",
+    "end": "17:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 5,
+    "month": "june",
+    "year": 2019,
+    "begin": "19:25",
+    "end": "20:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 6,
+    "month": "june",
+    "year": 2019,
+    "begin": "16:30",
+    "end": "18:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 10,
+    "month": "june",
+    "year": 2019,
+    "begin": "16:45",
+    "end": "19:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 11,
+    "month": "june",
+    "year": 2019,
+    "begin": "16:45",
+    "end": "18:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 11,
+    "month": "june",
+    "year": 2019,
+    "begin": "20:45",
+    "end": "21:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 12,
+    "month": "june",
+    "year": 2019,
+    "begin": "18:45",
+    "end": "18:50",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 12,
+    "month": "june",
+    "year": 2019,
+    "begin": "19:15",
+    "end": "20:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 14,
+    "month": "june",
+    "year": 2019,
+    "begin": "12:45",
+    "end": "15:00",
+    "type": "chamber",
+    "notes": "convocation rehearsal"
+  },
+  {
+    "day": 14,
+    "month": "june",
+    "year": 2019,
+    "begin": "15:10",
+    "end": "16:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 15,
+    "month": "june",
+    "year": 2019,
+    "begin": "12:45",
+    "end": "14:30",
+    "type": "chamber",
+    "notes": "convocation rehearsal"
+  },
+  {
+    "day": 16,
+    "month": "june",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "18:00",
+    "type": "performance",
+    "notes": "convocation"
+  },
+  {
+    "day": 17,
+    "month": "june",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "18:00",
+    "type": "performance",
+    "notes": "convocation"
+  },
+  {
+    "day": 18,
+    "month": "june",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "18:00",
+    "type": "performance",
+    "notes": "convocation"
+  },
+  {
+    "day": 19,
+    "month": "june",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "18:00",
+    "type": "performance",
+    "notes": "convocation"
+  },
+  {
+    "day": 21,
+    "month": "june",
+    "year": 2019,
+    "begin": "20:10",
+    "end": "21:10",
+    "type": "solo",
+    "notes": "NA"
   }
 ]

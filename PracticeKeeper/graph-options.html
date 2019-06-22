@@ -30,13 +30,14 @@
 <body>
   <body onload="default_gradient()"> <!-- load first gradient on page-->
     <div id="header">
-      <h1>Graph Options<span><i class="icon-wrench"></i></span></h1>
+      <h1>Graph Options</h1>
     </div>
 
     <div id="icons">
-      <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-bar"></i></span>
-      <span style="font-size:50px;color:#C4C4C4"><i class="icon-chart-pie-alt"></i></span>
-      <span style="font-size:50px;color:#C4C4C4"><i class="icon-calendar"></i></span>
+      <span> <i class= "icon-chart-bar">     </i></span>
+      <span> <i class= "icon-chart-pie-alt"> </i></span>
+      <span> <i class= "icon-calendar">      </i></span>
+      <span> <i class= "icon-wrench">        </i></span>
     </div>
 
     <div class="col-md-6">
@@ -71,6 +72,10 @@
               <input type="checkbox" data-toggle="checkbox" value="" id="checkbox7" checked="true">
               Chamber
             </label>
+            <label class="checkbox" for="checkbox8">
+              <input type="checkbox" data-toggle="checkbox" value="" id="checkbox8" checked="true">
+              Other
+            </label>
             <label class="checkbox toggle-all" for="select_all">
               <input type="checkbox" data-toggle="checkbox" value="" id="select_all" checked="true">
               All
@@ -88,7 +93,7 @@
         This site will be updated as a find the time to do so to make it run better, and be more user friendly.  Please feel free to email me with any features you'd like to see changed, added or even removed.
         My email is daltonmooring@gmail.com; enjoy.
       </p>
-        </div>
+    </div>
 
     <div id="options">
       <h3>Choose Your Colors</h3>
@@ -130,7 +135,7 @@
         $slider.slider({
           min: 0,
           max: 5,
-          value: 3,
+          value: 5,
           orientation: "horizontal",
           range: "min"
         });
