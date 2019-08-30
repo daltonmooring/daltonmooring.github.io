@@ -3050,7 +3050,7 @@ var data =
     "year": 2019,
     "begin": "12:45",
     "end": "15:00",
-    "type": "chamber",
+    "type": "other",
     "notes": "convocation rehearsal"
   },
   {
@@ -4013,6 +4013,204 @@ var data =
     "year": 2019,
     "begin": "20:20",
     "end": "20:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 17,
+    "month": "aug",
+    "year": 2019,
+    "begin": "16:40",
+    "end": "17:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 17,
+    "month": "aug",
+    "year": 2019,
+    "begin": "20:40",
+    "end": "22:20",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 18,
+    "month": "aug",
+    "year": 2019,
+    "begin": "15:15",
+    "end": "16:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 18,
+    "month": "aug",
+    "year": 2019,
+    "begin": "17:05",
+    "end": "18:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 18,
+    "month": "aug",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "19:25",
+    "type": "solo",
+    "notes": "alto"
+  },
+  {
+    "day": 18,
+    "month": "aug",
+    "year": 2019,
+    "begin": "19:50",
+    "end": "20:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 19,
+    "month": "aug",
+    "year": 2019,
+    "begin": "15:40",
+    "end": "16:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 19,
+    "month": "aug",
+    "year": 2019,
+    "begin": "17:55",
+    "end": "18:55",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 19,
+    "month": "aug",
+    "year": 2019,
+    "begin": "19:15",
+    "end": "19:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 20,
+    "month": "aug",
+    "year": 2019,
+    "begin": "15:15",
+    "end": "16:20",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 20,
+    "month": "aug",
+    "year": 2019,
+    "begin": "18:00",
+    "end": "19:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 20,
+    "month": "aug",
+    "year": 2019,
+    "begin": "20:30",
+    "end": "20:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 24,
+    "month": "aug",
+    "year": 2019,
+    "begin": "20:50",
+    "end": "22:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 26,
+    "month": "aug",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "17:10",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 26,
+    "month": "aug",
+    "year": 2019,
+    "begin": "18:30",
+    "end": "19:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 26,
+    "month": "aug",
+    "year": 2019,
+    "begin": "20:40",
+    "end": "21:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 27,
+    "month": "aug",
+    "year": 2019,
+    "begin": "17:00",
+    "end": "18:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 27,
+    "month": "aug",
+    "year": 2019,
+    "begin": "20:05",
+    "end": "20:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 28,
+    "month": "aug",
+    "year": 2019,
+    "begin": "16:45",
+    "end": "17:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 28,
+    "month": "aug",
+    "year": 2019,
+    "begin": "18:50",
+    "end": "19:25",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 29,
+    "month": "aug",
+    "year": 2019,
+    "begin": "15:30",
+    "end": "16:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 29,
+    "month": "aug",
+    "year": 2019,
+    "begin": "18:35",
+    "end": "19:05",
     "type": "solo",
     "notes": "NA"
   }
