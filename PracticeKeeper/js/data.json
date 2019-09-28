@@ -4213,5 +4213,446 @@ var data =
     "end": "19:05",
     "type": "solo",
     "notes": "NA"
+  },
+  {
+    "day": 2,
+    "month": "sept",
+    "year": 2019,
+    "begin": "18:00",
+    "end": "19:10",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 4,
+    "month": "sept",
+    "year": 2019,
+    "begin": "13:35",
+    "end": "14:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 4,
+    "month": "sept",
+    "year": 2019,
+    "begin": "15:55",
+    "end": "17:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 5,
+    "month": "sept",
+    "year": 2019,
+    "begin": "12:30",
+    "end": "12:50",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 5,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:00",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 6,
+    "month": "sept",
+    "year": 2019,
+    "begin": "10:45",
+    "end": "11:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 6,
+    "month": "sept",
+    "year": 2019,
+    "begin": "12:10",
+    "end": "12:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 6,
+    "month": "sept",
+    "year": 2019,
+    "begin": "13:35",
+    "end": "14:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 7,
+    "month": "sept",
+    "year": 2019,
+    "begin": "15:35",
+    "end": "16:10",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 7,
+    "month": "sept",
+    "year": 2019,
+    "begin": "16:30",
+    "end": "17:10",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 8,
+    "month": "sept",
+    "year": 2019,
+    "begin": "14:25",
+    "end": "15:25",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 8,
+    "month": "sept",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "17:05",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 8,
+    "month": "sept",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "19:25",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 9,
+    "month": "sept",
+    "year": 2019,
+    "begin": "12:45",
+    "end": "14:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 9,
+    "month": "sept",
+    "year": 2019,
+    "begin": "16:05",
+    "end": "16:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 9,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:00",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 10,
+    "month": "sept",
+    "year": 2019,
+    "begin": "14:40",
+    "end": "15:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 10,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:50",
+    "end": "19:05",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 12,
+    "month": "sept",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "14:10",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 12,
+    "month": "sept",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "16:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 12,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:00",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 13,
+    "month": "sept",
+    "year": 2019,
+    "begin": "15:00",
+    "end": "15:20",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 13,
+    "month": "sept",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "16:30",
+    "type": "orchestra",
+    "notes": "audition"
+  },
+  {
+    "day": 16,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 17,
+    "month": "sept",
+    "year": 2019,
+    "begin": "14:45",
+    "end": "15:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 17,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "18:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 19,
+    "month": "sept",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "16:55",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 19,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:00",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 20,
+    "month": "sept",
+    "year": 2019,
+    "begin": "10:35",
+    "end": "11:05",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 20,
+    "month": "sept",
+    "year": 2019,
+    "begin": "11:25",
+    "end": "12:45",
+    "type": "sectional",
+    "notes": "orchestral repertoire"
+  },
+  {
+    "day": 20,
+    "month": "sept",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:35",
+    "type": "chamber",
+    "notes": "brass choir"
+  },
+  {
+    "day": 21,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:45",
+    "end": "18:55",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 22,
+    "month": "sept",
+    "year": 2019,
+    "begin": "14:55",
+    "end": "15:55",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 23,
+    "month": "sept",
+    "year": 2019,
+    "begin": "9:20",
+    "end": "9:50",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 23,
+    "month": "sept",
+    "year": 2019,
+    "begin": "10:45",
+    "end": "11:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 23,
+    "month": "sept",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "14:05",
+    "type": "lesson",
+    "notes": "NA"
+  },
+  {
+    "day": 23,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "18:45",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 24,
+    "month": "sept",
+    "year": 2019,
+    "begin": "11:00",
+    "end": "11:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 24,
+    "month": "sept",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "13:20",
+    "type": "sectional",
+    "notes": "NA"
+  },
+  {
+    "day": 24,
+    "month": "sept",
+    "year": 2019,
+    "begin": "13:30",
+    "end": "15:30",
+    "type": "orchestra",
+    "notes": "NA"
+  },
+  {
+    "day": 25,
+    "month": "sept",
+    "year": 2019,
+    "begin": "16:30",
+    "end": "17:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 25,
+    "month": "sept",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "19:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 26,
+    "month": "sept",
+    "year": 2019,
+    "begin": "10:15",
+    "end": "11:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 26,
+    "month": "sept",
+    "year": 2019,
+    "begin": "16:45",
+    "end": "17:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 26,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:00",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 27,
+    "month": "sept",
+    "year": 2019,
+    "begin": "11:00",
+    "end": "11:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 27,
+    "month": "sept",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "12:40",
+    "type": "sectional",
+    "notes": "NA"
+  },
+  {
+    "day": 27,
+    "month": "sept",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:25",
+    "type": "chamber",
+    "notes": "brass choir"
+  },
+  {
+    "day": 27,
+    "month": "sept",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "18:00",
+    "type": "orchestra",
+    "notes": "NA"
   }
 ]
