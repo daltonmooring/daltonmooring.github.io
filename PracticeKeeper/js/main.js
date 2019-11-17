@@ -44,12 +44,12 @@ function load_data(input_choices){
     var year            = parseInt(current_day.year,10);
     var month           = current_day.month;
     var day             = parseInt(current_day.day,10);
-    var hour_start      = parseInt(current_day.begin.slice(0,2),10);
-    var minutes_start   = parseInt(current_day.begin.slice(3,5),10);
-    var hour_end        = parseInt(current_day.end.slice(0,2),10);
-    var minutes_end     = parseInt(current_day.end.slice(3,5),10);
+    var hour_start      = parseInt(current_day.begin.split(":")[0],10);
+    var minutes_start   = parseInt(current_day.begin.split(":")[1],10);
+    var hour_end        = parseInt(current_day.end.split(":")[0],10);
+    var minutes_end     = parseInt(current_day.end.split(":")[1],10);
     var type            = current_day.type;
-    var notes           =
+    var notes;
     month               = month_to_num(month);
     for (var j=0;j<skip_list.length;j++){
       if (type===skip_list[j]) {

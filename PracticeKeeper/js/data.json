@@ -4654,5 +4654,689 @@ var data =
     "end": "18:00",
     "type": "orchestra",
     "notes": "NA"
+  },
+  {
+    "day": 28,
+    "month": "sept",
+    "year": 2019,
+    "begin": "15:30",
+    "end": "16:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 30,
+    "month": "sept",
+    "year": 2019,
+    "begin": "10:35",
+    "end": "11:05",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 30,
+    "month": "sept",
+    "year": 2019,
+    "begin": "13:35",
+    "end": "15:20",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 30,
+    "month": "sept",
+    "year": 2019,
+    "begin": "17:20",
+    "end": "19:00",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 1,
+    "month": "oct",
+    "year": 2019,
+    "begin": "13:05",
+    "end": "14:30",
+    "type": "orchestra",
+    "notes": "NA"
+  },
+  {
+    "day": 1,
+    "month": "oct",
+    "year": 2019,
+    "begin": "14:55",
+    "end": "15:20",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 2,
+    "month": "oct",
+    "year": 2019,
+    "begin": "17:00",
+    "end": "18:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 3,
+    "month": "oct",
+    "year": 2019,
+    "begin": "16:25",
+    "end": "17:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 3,
+    "month": "oct",
+    "year": 2019,
+    "begin": "17:25",
+    "end": "19:00",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 4,
+    "month": "oct",
+    "year": 2019,
+    "begin": "10:50",
+    "end": "11:10",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 4,
+    "month": "oct",
+    "year": 2019,
+    "begin": "11:25",
+    "end": "12:40",
+    "type": "sectional",
+    "notes": "orchestral repertoire"
+  },
+  {
+    "day": 4,
+    "month": "oct",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:40",
+    "type": "chamber",
+    "notes": "brass choir"
+  },
+  {
+    "day": 4,
+    "month": "oct",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "17:50",
+    "type": "orchestra",
+    "notes": "NA"
+  },
+  {
+    "day": 7,
+    "month": "oct",
+    "year": 2019,
+    "begin": "11:35",
+    "end": "12:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 7,
+    "month": "oct",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "14:05",
+    "type": "lesson",
+    "notes": "NA"
+  },
+  {
+    "day": 7,
+    "month": "oct",
+    "year": 2019,
+    "begin": "17:15",
+    "end": "19:20",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 9,
+    "month": "oct",
+    "year": 2019,
+    "begin": "11:40",
+    "end": "12:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 9,
+    "month": "oct",
+    "year": 2019,
+    "begin": "14:15",
+    "end": "15:15",
+    "type": "chamber",
+    "notes": "devils waltz with jonathan"
+  },
+  {
+    "day": 9,
+    "month": "oct",
+    "year": 2019,
+    "begin": "17:15",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 10,
+    "month": "oct",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "21:30",
+    "type": "concert",
+    "notes": "wind ensemble"
+  },
+  {
+    "day": 11,
+    "month": "oct",
+    "year": 2019,
+    "begin": "9:35",
+    "end": "9:50",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 11,
+    "month": "oct",
+    "year": 2019,
+    "begin": "10:00",
+    "end": "11:10",
+    "type": "lesson",
+    "notes": "NA"
+  },
+  {
+    "day": 11,
+    "month": "oct",
+    "year": 2019,
+    "begin": "11:25",
+    "end": "11:55",
+    "type": "sectional",
+    "notes": "orchestral repertoire"
+  },
+  {
+    "day": 11,
+    "month": "oct",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:30",
+    "type": "chamber",
+    "notes": "brass choir"
+  },
+  {
+    "day": 11,
+    "month": "oct",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "17:55",
+    "type": "orchestra",
+    "notes": "NA"
+  },
+  {
+    "day": 13,
+    "month": "oct",
+    "year": 2019,
+    "begin": "13:55",
+    "end": "15:25",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 13,
+    "month": "oct",
+    "year": 2019,
+    "begin": "16:45",
+    "end": "17:05",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 13,
+    "month": "oct",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "19:50",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 14,
+    "month": "oct",
+    "year": 2019,
+    "begin": "17:50",
+    "end": "18:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 14,
+    "month": "oct",
+    "year": 2019,
+    "begin": "19:45",
+    "end": "20:20",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 15,
+    "month": "oct",
+    "year": 2019,
+    "begin": "13:55",
+    "end": "14:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 15,
+    "month": "oct",
+    "year": 2019,
+    "begin": "18:05",
+    "end": "18:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 18,
+    "month": "oct",
+    "year": 2019,
+    "begin": "18:15",
+    "end": "19:05",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 21,
+    "month": "oct",
+    "year": 2019,
+    "begin": "13:00",
+    "end": "14:15",
+    "type": "lesson",
+    "notes": "NA"
+  },
+  {
+    "day": 21,
+    "month": "oct",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "19:30",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 22,
+    "month": "oct",
+    "year": 2019,
+    "begin": "13:30",
+    "end": "14:45",
+    "type": "orchestra",
+    "notes": "NA"
+  },
+  {
+    "day": 23,
+    "month": "oct",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "22:00",
+    "type": "orchestra",
+    "notes": "NA"
+  },
+  {
+    "day": 24,
+    "month": "oct",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "18:30",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 24,
+    "month": "oct",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "22:15",
+    "type": "orchestra",
+    "notes": "NA"
+  },
+  {
+    "day": 25,
+    "month": "oct",
+    "year": 2019,
+    "begin": "11:30",
+    "end": "11:45",
+    "type": "sectional",
+    "notes": "orchestral repertoire"
+  },
+  {
+    "day": 25,
+    "month": "oct",
+    "year": 2019,
+    "begin": "19:15",
+    "end": "22:00",
+    "type": "concert",
+    "notes": "orchestra"
+  },
+  {
+    "day": 28,
+    "month": "oct",
+    "year": 2019,
+    "begin": "17:30",
+    "end": "18:55",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 28,
+    "month": "oct",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "20:00",
+    "type": "chamber",
+    "notes": "brass choir"
+  },
+  {
+    "day": 29,
+    "month": "oct",
+    "year": 2019,
+    "begin": "19:00",
+    "end": "20:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 30,
+    "month": "oct",
+    "year": 2019,
+    "begin": "16:15",
+    "end": "16:55",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 31,
+    "month": "oct",
+    "year": 2019,
+    "begin": "11:25",
+    "end": "12:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 31,
+    "month": "oct",
+    "year": 2019,
+    "begin": "15:45",
+    "end": "16:35",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 31,
+    "month": "oct",
+    "year": 2019,
+    "begin": "17:20",
+    "end": "18:30",
+    "type": "wind ensemble",
+    "notes": "NA"
+  },
+  {
+    "day": 31,
+    "month": "oct",
+    "year": 2019,
+    "begin": "18:30",
+    "end": "19:45",
+    "type": "chamber",
+    "notes": "brass choir"
+  },
+  {
+    "day": 1,
+    "month": "nov",
+    "year": 2019,
+    "begin": "12:00",
+    "end": "18:00",
+    "type": "convocations",
+    "notes": "NA"
+  },
+  {
+    "day": 2,
+    "month": "nov",
+    "year": 2019,
+    "begin": "12:55",
+    "end": "13:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 2,
+    "month": "nov",
+    "year": 2019,
+    "begin": "14:15",
+    "end": "15:10",
+    "type": "lesson",
+    "notes": "NA"
+  },
+  {
+    "day": 4,
+    "month": "nov",
+    "year": 2019,
+    "begin": "10:50",
+    "end": "11:20",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 4,
+    "month": "nov",
+    "year": 2019,
+    "begin": "15:00",
+    "end": "16:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 4,
+    "month": "nov",
+    "year": 2019,
+    "begin": "17:15",
+    "end": "19:10",
+    "type": "wind ensmeble",
+    "notes": "NA"
+  },
+  {
+    "day": 4,
+    "month": "nov",
+    "year": 2019,
+    "begin": "21:30",
+    "end": "22:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 5,
+    "month": "nov",
+    "year": 2019,
+    "begin": "12:05",
+    "end": "12:40",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 5,
+    "month": "nov",
+    "year": 2019,
+    "begin": "13:05",
+    "end": "15:15",
+    "type": "orchestra",
+    "notes": "NA"
+  },
+  {
+    "day": 6,
+    "month": "nov",
+    "year": 2019,
+    "begin": "11:00",
+    "end": "11:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 6,
+    "month": "nov",
+    "year": 2019,
+    "begin": "14:00",
+    "end": "15:10",
+    "type": "lesson",
+    "notes": "NA"
+  },
+  {
+    "day": 7,
+    "month": "nov",
+    "year": 2019,
+    "begin": "11:20",
+    "end": "11:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 7,
+    "month": "nov",
+    "year": 2019,
+    "begin": "17:10",
+    "end": "19:15",
+    "type": "wind ensmeble",
+    "notes": "NA"
+  },
+  {
+    "day": 8,
+    "month": "nov",
+    "year": 2019,
+    "begin": "11:15",
+    "end": "12:10",
+    "type": "sectional",
+    "notes": "orchestral rep"
+  },
+  {
+    "day": 8,
+    "month": "nov",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:30",
+    "type": "chamber",
+    "notes": "brass choir"
+  },
+  {
+    "day": 11,
+    "month": "nov",
+    "year": 2019,
+    "begin": "12:50",
+    "end": "14:10",
+    "type": "lesson",
+    "notes": "NA"
+  },
+  {
+    "day": 11,
+    "month": "nov",
+    "year": 2019,
+    "begin": "16:20",
+    "end": "17:00",
+    "type": "chamber",
+    "notes": "devils waltz with jon"
+  },
+  {
+    "day": 11,
+    "month": "nov",
+    "year": 2019,
+    "begin": "17:15",
+    "end": "19:15",
+    "type": "wind ensmeble",
+    "notes": "NA"
+  },
+  {
+    "day": 12,
+    "month": "nov",
+    "year": 2019,
+    "begin": "17:40",
+    "end": "18:15",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 12,
+    "month": "nov",
+    "year": 2019,
+    "begin": "19:15",
+    "end": "19:45",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 13,
+    "month": "nov",
+    "year": 2019,
+    "begin": "11:00",
+    "end": "11:30",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 13,
+    "month": "nov",
+    "year": 2019,
+    "begin": "18:00",
+    "end": "19:00",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 14,
+    "month": "nov",
+    "year": 2019,
+    "begin": "15:55",
+    "end": "16:55",
+    "type": "solo",
+    "notes": "NA"
+  },
+  {
+    "day": 14,
+    "month": "nov",
+    "year": 2019,
+    "begin": "17:15",
+    "end": "19:30",
+    "type": "wind ensmeble",
+    "notes": "NA"
+  },
+  {
+    "day": 15,
+    "month": "nov",
+    "year": 2019,
+    "begin": "11:15",
+    "end": "12:35",
+    "type": "sectional",
+    "notes": "orchestral rep"
+  },
+  {
+    "day": 15,
+    "month": "nov",
+    "year": 2019,
+    "begin": "14:30",
+    "end": "15:15",
+    "type": "chamber",
+    "notes": "brass choir"
+  },
+  {
+    "day": 15,
+    "month": "nov",
+    "year": 2019,
+    "begin": "16:00",
+    "end": "18:00",
+    "type": "orchestra",
+    "notes": "NA"
   }
 ]

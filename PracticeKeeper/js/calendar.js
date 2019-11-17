@@ -224,8 +224,6 @@ class day_class{
     return text;
   }
 
-
-
 }
 class session{
   constructor(time1,time2,type){ // should take in two date objects
@@ -235,7 +233,7 @@ class session{
     this.start         = time1;
     this.end           = time2;
     this.length_ms     = time2-time1;
-    this.length_min    = this.length_ms/ 60000;
+    this.length_min    = (this.length_ms)/ 60000;
     this.practice_type = type;
   }
   print(){
@@ -243,11 +241,12 @@ class session{
     var hour_start    = this.start.getHours();
     var hour_end      = this.end.getHours();
     var min_start     = this.start.getMinutes();
+    var min_end       = this.end.getMinutes()
+    console.log(this.length_min)
     if(min_start<10){
       min_start="0"+min_start;
     }
-    var min_end = this.end.getMinutes();
-    if(min_end<10){
+    else if(min_end<10){
       min_end="0"+min_end;
     }
 
@@ -276,7 +275,6 @@ class session{
       hour_end=12;
       var full_start = hour_start + ":" + min_start + "AM ";
       var full_end   = hour_end   + ":" + min_end   + "PM";
-
     }
     else{  // else both in AM
       var full_start = hour_start + ":" + min_start + "AM ";
